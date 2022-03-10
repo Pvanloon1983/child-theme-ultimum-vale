@@ -8,3 +8,7 @@ Text Domain: cmswebdesignstarter
 Version: 1.0.1646759621
 Updated: 2022-03-08 17:13:41
 */
+
+.copyright p {
+  background-color: aqua;
+}
