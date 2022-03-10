@@ -1,13 +1,10 @@
 /*
 Theme Name: Child CMS Webdesign Theme
-Template: cmswebdesign-theme
+Template: cmswebdesignstarter
 Author: CMS Webdesign
 Author URI: https://cmswebdesign.nl
 Description: This is a child theme from CMS Webdesign.
+Text Domain: cmswebdesignstarter
 Version: 1.0.1646759621
 Updated: 2022-03-08 17:13:41
 */
-
-.body {
-  background-color: aqua;
-}
