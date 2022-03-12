@@ -8,3 +8,86 @@ Text Domain: cmswebdesignstarter
 Version: 1.0
 Updated: 2022-03-08 17:13:41
 */
+
+/*
+* #.# Tobar styling
+*
+*/
+.top-bar, 
+.top-bar .container {
+  height: 80px;
+  border-bottom: 1px solid #fafafa;
+}
+
+/* #.# Logo 
+*
+*
+*/
+.logo-container a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*
+* #.# Heading styling
+*
+*/
+body.logged-in > header {
+  margin-top: 110px !important;
+}
+
+.header-section {
+  height: 80px;
+}
+
+.header-section 
+.container {
+  height: 80px;
+  border-top: 1px solid #fafafa;
+  border-bottom: 1px solid #fafafa;
+  justify-content: center;
+}
+
+.header-section
+.logo-container {
+  display: none;
+}
+
+/*
+* #.# Navbar styling
+*
+*/
+
+.navbar-main .menu-main-menu-container > ul > li > ul {
+  top: 115%;
+  width: 200px;
+}
+
+/* Navbar submenu styling */
+.navbar-main .menu-main-menu-container > ul > li > ul > li > a {
+  width: 200px;
+}
+
+/*
+* #.# Navbar search bar styling
+*
+*/
+.search-bar-container {
+  top: 115%;
+  border-radius: 0px;
+}
+
+.search-bar-container 
+.search-bar {
+  border-radius: 0px;
+}
+
+.search-bar-container .search-submit-button {
+  border-radius: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+  
+}
