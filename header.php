@@ -23,7 +23,14 @@
               }
 
               body.logged-in > header {
-                margin-top: 92px;
+                margin-top: 90px !important;
+              }
+
+              @media only screen and (max-width: 440px) {
+                body.logged-in > header {
+                margin-top: 165px !important;
+              }
+              
               }
             </style>
         <?php } ?>
@@ -170,8 +177,8 @@ if ( class_exists( 'WooCommerce' ) ) { ?>
     </div> -->
 
     <div class="button-container">
-        <button class="btn btn-1">CTA button one</button>
-        <button class="btn btn-2">CTA button two</button>
+        <a href="tel:31655143381"><button class="btn btn-1"><b>24/7 bereikbaar via:</b><br><i class="fa-solid fa-phone"></i> 06-55143381</button></a>
+        <a href="<?php echo get_permalink(27) ?>"><button class="btn btn-2">Overlijden melden</button></a>
     </div>
 
   </div>
