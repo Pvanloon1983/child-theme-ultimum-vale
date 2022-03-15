@@ -8,7 +8,7 @@
 
 <div class="main-content">
 
-  <div class="header-hero">  
+  <div class="header-hero" style="background-image: url('<?php echo get_field('header_hero_image', 'option'); ?>')">
     <div class="overlay">
       <div class="container">
         <div class="header-hero-inside-container">
