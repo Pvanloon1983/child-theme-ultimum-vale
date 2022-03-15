@@ -32,6 +32,10 @@
               }
               
               }
+
+              .header-hero {
+                background-image: url(<?php echo get_field('header_hero_image', 'option'); ?>);
+              }
             </style>
         <?php } ?>
 
