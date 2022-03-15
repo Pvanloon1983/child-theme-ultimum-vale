@@ -166,7 +166,7 @@ body.logged-in > header {
   display: flex;
   align-items: center;
   width: 100%;
-  height: 425px;
+  height: auto;
   background-image: url(http://nieuwvale.test/wp-content/uploads/2022/03/uitvaartverzorging-door-heel-nederland.jpg);
   background-position: center center;
   background-repeat: no-repeat;
@@ -189,6 +189,7 @@ body.logged-in > header {
   display: flex;
   justify-content: start;
   align-items: center;
+  padding: 65px 0 70px 0;
 }
 
 .header-hero
@@ -293,14 +294,45 @@ body.logged-in > header {
   
 }
 
+
+@media only screen and (max-width: 600px) {
+  
+  .header-hero .header-hero-block h1 {
+    font-size: 28px;
+  }
+
+  .header-hero-block.block-1 p {
+    font-size: 18px;
+  }
+
+  .header-hero .block-1 .btn {
+    padding: 8px 15px;
+  }
+
+  .top-bar .button-container .btn-2 {
+    padding: 8px 15px !important;
+  }
+
+  .header-hero .container 
+  .header-hero-inside-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 40px 0 45px 0;
+  }
+
+
+}
+
+
 @media only screen and (max-width: 440px) {
 
   .main-content {
-    padding-top: 199px !important;
+    padding-top: 192px !important;
   }
 
   header {
-    margin-top: 119px !important;
+    margin-top: 112px !important;
   }
 
 
