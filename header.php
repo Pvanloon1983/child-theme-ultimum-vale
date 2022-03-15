@@ -38,7 +38,7 @@
                 align-items: center;
                 width: 100%;
                 height: auto;
-                background: url("<?php echo get_field('header_hero_image', 'option'); ?>");
+                background: url("https://vale.cmswebdesign.nl/wp-content/uploads/2022/03/uitvaartverzorging-door-heel-nederland.jpg");
                 background-position: center center;
                 background-repeat: no-repeat;
                 background-size: cover;
