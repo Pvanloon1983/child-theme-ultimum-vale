@@ -8,7 +8,7 @@
 
 <div class="main-content">
 
-  <div class="header-hero" style="background-image: url('<?php echo get_field('header_hero_image', 'option'); ?>')">
+  <div class="header-hero" style="background-image: url('<?php echo get_field('header_hero_image', 'option'); ?>');           background-position: center center; background-repeat: no-repeat; background-size: cover;">
     <div class="overlay">
       <div class="container">
         <div class="header-hero-inside-container">

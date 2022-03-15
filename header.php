@@ -32,16 +32,6 @@
               }
               
               }
-
-              .header-hero {
-                display: flex;
-                align-items: center;
-                width: 100%;
-                height: auto;                
-                background-position: center center;
-                background-repeat: no-repeat;
-                background-size: cover;
-              }
             </style>
         <?php } ?>
 

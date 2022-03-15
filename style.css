@@ -163,6 +163,13 @@ body.logged-in > header {
 *
 */
 
+.header-hero {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: auto;                
+}
+
 .header-hero
 .overlay {
   width: 100%;
@@ -170,6 +177,7 @@ body.logged-in > header {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgb(255 255 255 / 54%) 100%, rgb(255 255 255) 100%);
 }
 
 .header-hero
