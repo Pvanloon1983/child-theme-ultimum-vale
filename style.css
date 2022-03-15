@@ -162,15 +162,6 @@ body.logged-in > header {
 * #.# Header hero front page
 *
 */
-.header-hero {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  height: auto;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 .header-hero
 .overlay {
