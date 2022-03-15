@@ -29,8 +29,7 @@
               @media only screen and (max-width: 440px) {
                 body.logged-in > header {
                 margin-top: 165px !important;
-              }
-              
+                }              
               }
             </style>
         <?php } ?>

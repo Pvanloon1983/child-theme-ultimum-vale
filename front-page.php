@@ -9,7 +9,8 @@
 <div class="main-content">
 
   <div class="header-hero" style="background-image: url('<?php echo get_field('header_hero_image', 'option'); ?>');           background-position: center center; background-repeat: no-repeat; background-size: cover;">
-    <div class="overlay">
+    <div class="overlay" style="width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgb(255 255 255 / 54%) 100%, rgb(255 255 255) 100%);">
       <div class="container">
         <div class="header-hero-inside-container">
           <div class="header-hero-block block-1">
