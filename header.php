@@ -38,7 +38,7 @@
                 align-items: center;
                 width: 100%;
                 height: auto;
-                background-image: url(<?php echo get_field('header_hero_image', 'option'); ?>);
+                background-image: url("<?php echo get_field('header_hero_image', 'option'); ?>");
                 background-position: center center;
                 background-repeat: no-repeat;
                 background-size: cover;
