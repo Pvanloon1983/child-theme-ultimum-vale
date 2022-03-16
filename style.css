@@ -197,6 +197,7 @@ body.logged-in > header {
 .header-hero
 .block-1 p {
   font-size: 22px;
+  margin-top: 10px;
 }
 
 .header-hero
