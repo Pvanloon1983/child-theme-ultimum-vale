@@ -220,6 +220,20 @@ body.logged-in > header {
 
 @media only screen and (max-width: 1024px) {
 
+  /*
+  * #.# Navbar mobile menu
+  *
+  */
+  .navbar-mobile .menu-main-menu-container li {
+    padding: 10px 20px;
+  }
+
+  .mobile-menu-side-menu {
+    width: 275px;
+    box-shadow: rgb(181 181 181 / 20%) 0px 2px 8px 0px;
+    border-left: none;
+  }
+
   .menu-toggle-container
   .fa-bars {
     cursor: pointer;
