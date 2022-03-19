@@ -438,6 +438,14 @@ body.logged-in > header {
     padding: 40px 0 50px 0;
   }
 
+  /*
+  * #.# Pakketten section front page
+  *
+  */
+  .section.pakketten h3 {
+    font-size: 25px;
+  }
+
 
 }
 
