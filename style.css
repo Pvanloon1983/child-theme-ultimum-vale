@@ -462,7 +462,7 @@ body.logged-in > header {
 
 
   .header-section {
-    top: 0px;
+    top: -1px;
   }   
 
 
