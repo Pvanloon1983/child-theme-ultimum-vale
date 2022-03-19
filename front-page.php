@@ -23,19 +23,76 @@
     </div>
   </div>
 
-  <div class="container">
-    <!-- <h1>Front page</h1> -->
+  <section class="section pakketten">
+    <div class="container">
 
-    <p>Hello</p>
+    <h3>5 Uitvaartpakketten</h3>
 
-    <?php 
-    if ( have_posts() ) : 
-        while ( have_posts() ) : the_post(); 
-            the_content();
-        endwhile; 
-    endif; 
-    ?>
+    <div class="flex-box">
+
+      <a href="#" class="pakket"><div>
+        <p class="p-pakket">Uitvaartpakket</p>
+        <p class="p-title">Basis</p>
+        <p class="p-crem">Crematie vanaf</p>
+        <p class="p-crem-prijs">€ 1495,-</p>
+        <p class="p-begr">Begrafenis vanaf</p>
+        <p class="p-begr-prijs">€ 1920,-</p>
+        <button class="pakket-button">
+          Bekijk het pakket
+        </button>
+      </div></a>
+      <a href="#" class="pakket"><div>
+        <p class="p-pakket">Uitvaartpakket</p>
+        <p class="p-title">Basis</p>
+        <p class="p-crem">Crematie vanaf</p>
+        <p class="p-crem-prijs">€ 1495,-</p>
+        <p class="p-begr">Begrafenis vanaf</p>
+        <p class="p-begr-prijs">€ 1920,-</p>
+        <button class="pakket-button">
+          Bekijk het pakket
+        </button>
+      </div></a>
+      <a href="#" class="pakket"><div>
+        <p class="p-pakket">Uitvaartpakket</p>
+        <p class="p-title">Basis</p>
+        <p class="p-crem">Crematie vanaf</p>
+        <p class="p-crem-prijs">€ 1495,-</p>
+        <p class="p-begr">Begrafenis vanaf</p>
+        <p class="p-begr-prijs">€ 1920,-</p>
+        <button class="pakket-button">
+          Bekijk het pakket
+        </button>
+      </div></a>
+      <a href="#" class="pakket"><div>
+        <p class="p-pakket">Uitvaartpakket</p>
+        <p class="p-title">Basis</p>
+        <p class="p-crem">Crematie vanaf</p>
+        <p class="p-crem-prijs">€ 1495,-</p>
+        <p class="p-begr">Begrafenis vanaf</p>
+        <p class="p-begr-prijs">€ 1920,-</p>
+        <button class="pakket-button">
+          Bekijk het pakket
+        </button>
+      </div></a>
+      <a href="#" class="pakket"><div>
+        <p class="p-pakket">Uitvaartpakket</p>
+        <p class="p-title">Basis</p>
+        <p class="p-crem">Crematie vanaf</p>
+        <p class="p-crem-prijs">€ 1495,-</p>
+        <p class="p-begr">Begrafenis vanaf</p>
+        <p class="p-begr-prijs">€ 1920,-</p>
+        <button class="pakket-button">
+          Bekijk het pakket
+        </button>
+      </div></a>
+ 
+
+    </div>
+
+
   </div>
+  </section>
+
 </div>
 
 <?php get_footer(); ?>
