@@ -246,13 +246,14 @@ body.logged-in > header {
 
 .section.pakketten
 .pakket {
-  box-shadow: rgb(163, 163, 163, 0.2) 0px 2px 8px 0px;
+  // box-shadow: rgb(163, 163, 163, 0.2) 0px 2px 8px 0px;
   text-align: center;  
   flex: 1;
-  padding: 27px 30px 40px 30px;
+  padding: 27px 30px 30px 30px;
   margin: 10px;
   transition: all 0.3s;
   cursor: pointer;
+  border: 1px solid #dfdfdf;
 }
 
 .section.pakketten
@@ -442,6 +443,10 @@ body.logged-in > header {
   * #.# Pakketten section front page
   *
   */
+  .section.pakketten {
+    padding: 40px 0;
+  }
+
   .section.pakketten h3 {
     font-size: 25px;
   }
