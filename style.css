@@ -36,6 +36,7 @@ Updated: 2022-03-08 17:13:41
   max-width: 1200px;
 }
 
+
 /*
 * #.# Tobar styling
 *
@@ -44,6 +45,15 @@ Updated: 2022-03-08 17:13:41
 .top-bar .container {
   height: 80px;
   border-bottom: 1px solid #fafafa;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+  color: var(--main-color);
 }
 
 /* #.# Logo 
@@ -203,7 +213,6 @@ body.logged-in > header {
 
 .header-hero
 .header-hero-block h1 {
-  color: var(--main-color);
   font-size: 35px;
   margin-bottom: 0;
 }
@@ -230,7 +239,6 @@ body.logged-in > header {
 .section.pakketten h3 {
   text-align: center;
   font-size: 30px;
-  color: var(--main-color);
   margin-bottom: 30px;
 }
 
@@ -318,6 +326,53 @@ body.logged-in > header {
   width: 145px;
 }
 
+/*
+* #.# Section uitleg 1
+*
+*/
+.section.uitleg
+.overlay {
+  padding: 50px 0;
+}
+
+.section.uitleg
+.container {
+  display: flex;  
+}
+
+.section.uitleg
+.container
+.uitleg-box {
+  width: 100%;
+  max-width: 700px;
+}
+
+.section.uitleg
+.container
+.uitleg-box p {
+  font-size: 19px;
+}
+
+.section.uitleg
+.container
+.uitleg-box p:last-child {
+  margin-bottom: 0;
+}
+
+.section.uitleg
+.container
+.box-1 {
+  background-color: rgba(255, 255, 255, 0.645);
+  padding: 50px;
+  box-shadow: rgb(47, 47, 47, 0.2) 0px 2px 8px 0px;
+}
+
+.section.uitleg
+.container
+.box-1 h3 {
+  font-size: 30px;
+}
+
 @media only screen and (max-width: 1024px) {
 
   /*
@@ -401,6 +456,8 @@ body.logged-in > header {
     z-index: 100000;
     border-left: 1px solid #fafafa;
   }
+
+
   
 }
 
@@ -410,6 +467,23 @@ body.logged-in > header {
   // .pakket {
   //   width: 50%;
   // }
+
+  /*
+  * #.# uitleg 1 Home page
+  *
+  */
+  .section.uitleg
+  .container
+  .uitleg-box {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .section.uitleg .container .box-1 {
+    background-color: rgba(255, 255, 255, 0.645);
+    padding: 50px;
+    box-shadow: rgb(47 47 47 / 20%) 0px 2px 8px 0px;
+  }
 
 }
 
@@ -448,6 +522,24 @@ body.logged-in > header {
   }
 
   .section.pakketten h3 {
+    font-size: 25px;
+  }
+
+  /*
+  * #.# uitleg 1 Home page
+  *
+  */
+  .section.uitleg 
+  .container 
+  .box-1 {
+    background-color: rgba(255, 255, 255, 0.645);
+    padding: 30px 20px;
+    box-shadow: rgb(47 47 47 / 20%) 0px 2px 8px 0px;
+  }
+
+  .section.uitleg 
+  .container 
+  .box-1 h3 {
     font-size: 25px;
   }
 

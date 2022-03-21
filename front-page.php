@@ -92,6 +92,23 @@
 
   </div>
   </section>
+  <!-- End section pakketten -->
+
+  <section class="section uitleg" style="background-image: url('<?php echo get_field('home_page_uitleg_1', 'option'); ?>');           background-position: center center; background-repeat: no-repeat; background-size: cover;">
+  <div class="overlay" style="width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgb(255 255 255 / 54%) 100%, rgb(255 255 255) 100%);">
+          <div class="container">
+        
+      <div class="uitleg-box box-1">
+        <h3>Wij nemen de tijd om alle beslissingen met u te bespreken</h3>
+        <p>Wij respecteren volledig uw wensen en zullen deze uitvoeren zoals u dat van ons verwacht.
+        Ultimum Vale betekent in het Latijn een laatste groet. De laatste groet naar een overledene is voor iedereen anders. Sommige mensen hechten geen waarde aan de dood. En brengen een laatste groet aan het sterfbed van de overledene, waarna er een crematie in stilte plaats zal vinden.</p>
+        <p>Een ander wil graag een laatste groet brengen in een familiekamer van het crematorium. Terwijl sommige mensen meer waarde hechten aan een compleet afscheid in de aula van het crematorium/begraafplaats. Met eventueel een aansluitend informeel samenzijn in de ontvangstruimte van het crematorium of begraafplaats. Misschien vindt u het juist prettiger om op een andere locatie uw gasten te mogen ontvangen.</p>
+      </div>
+     
+      </div>
+    </div>
+  </section>
 
 </div>
 
