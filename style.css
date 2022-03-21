@@ -349,12 +349,6 @@ body.logged-in > header {
 
 .section.uitleg
 .container
-.uitleg-box p {
-  font-size: 19px;
-}
-
-.section.uitleg
-.container
 .uitleg-box p:last-child {
   margin-bottom: 0;
 }
