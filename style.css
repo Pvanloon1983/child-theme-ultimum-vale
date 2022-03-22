@@ -365,7 +365,7 @@ body.logged-in > header {
 .container
 .uitleg-box {
   width: 100%;
-  max-width: 700px;
+  max-width: 550px;
 }
 
 .section.uitleg
@@ -386,6 +386,42 @@ body.logged-in > header {
 .container
 .box-1 h3 {
   font-size: 30px;
+}
+
+/*
+* #.# Section CTA uitvaart regelen home page
+*
+*/
+.section.cta-uitvaart-regelen {
+  padding: 50px 0px 55px 0;
+  background-color: #F8F8F8;
+}
+
+.section.cta-uitvaart-regelen
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section.cta-uitvaart-regelen h3 {
+  margin-bottom: 0;
+  font-size: 30px;
+}
+
+.section.cta-uitvaart-regelen p {
+  margin-top: 0;
+  font-size: 22px;
+}
+
+.section.cta-uitvaart-regelen 
+.btn {
+  border: none;
+  padding: 11px 20px;
+  cursor: pointer;
+  background-color: var(--secondary-color);
+  color: #fff;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -556,6 +592,18 @@ body.logged-in > header {
   .container 
   .box-1 h3 {
     font-size: 25px;
+  }
+
+  /*
+  * #.# Section CTA uitvaart regelen home page
+  *
+  */
+  .section.cta-uitvaart-regelen h3 {
+    font-size: 25px;
+  }
+
+  .section.cta-uitvaart-regelen p {
+    font-size: 20px;
   }
 
 
