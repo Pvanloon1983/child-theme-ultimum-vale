@@ -93,7 +93,7 @@
   </section>
   <!-- End section pakketten -->
 
-  <section class="section uitleg" style="background-image: url('<?php echo get_field('home_page_uitleg_1', 'option'); ?>');           background-position: center center; background-repeat: no-repeat; background-size: cover;">
+  <section class="section uitleg" style="background-image: url('<?php echo get_field('eerste_uitleg_afbeelding', 'option'); ?>');           background-position: center center; background-repeat: no-repeat; background-size: cover;">
   <div class="overlay">
           <div class="container">
         
@@ -103,6 +103,7 @@
         <p>Wij respecteren volledig uw wensen en zullen deze uitvoeren zoals u dat van ons verwacht.
         Ultimum Vale betekent in het Latijn een laatste groet. De laatste groet naar een overledene is voor iedereen anders. Sommige mensen hechten geen waarde aan de dood. En brengen een laatste groet aan het sterfbed van de overledene, waarna er een crematie in stilte plaats zal vinden.</p>
         <p>Een ander wil graag een laatste groet brengen in een familiekamer van het crematorium. Terwijl sommige mensen meer waarde hechten aan een compleet afscheid in de aula van het crematorium/begraafplaats. Met eventueel een aansluitend informeel samenzijn in de ontvangstruimte van het crematorium of begraafplaats. Misschien vindt u het juist prettiger om op een andere locatie uw gasten te mogen ontvangen.</p>
+        <p>Uitvaartverzorging Ultimum Vale werkt landelijk. In elke provincie hebben wij deskundige uitvaartbegeleiders die u professioneel bijstaan en alle zorgen rondom de uitvaart voor u uit handen neemt. Onze professionele werkwijze is gebouwd op vele jaren van ervaring. Zo zorgen wij dat de laatste groet van uw dierbare altijd waardig verloopt.</p>
       </div>
      
       </div>
@@ -114,6 +115,34 @@
       <h3>Uw uitvaart zoals u dat wilt?</h3>
       <p>Neem vrijblijvend contact op</p>
       <button class="cta-uitvaart-regelen btn">Contact opnemen met Ultimum Vale</button>
+    </div>
+  </section>
+
+  <section class="section wat-bieden-wij" style="background-image: url('<?php echo get_field('wat_bieden_wij_afbeelding', 'option'); ?>'); background-position: center center; background-repeat: no-repeat; background-size: cover;">
+    <div class="overlay">
+      <div class="container">
+        <!-- <h3>Wat bieden wij?</h3> -->
+        <div class="flex-box">  
+          <div class="box">
+            <img src="<?php echo get_field('aanbod_kisten_afbeelding', 'option'); ?>" alt="">
+            <h3><?php echo get_field('aanbod_kisten_titel', 'option'); ?></h3>
+            <p><?php echo get_field('aanbod_kisten_uitleg', 'option'); ?></p>
+            <button class="btn"><?php echo get_field('aanbod_kisten_knop', 'option'); ?></button>
+          </div>
+          <div class="box">
+            <img src="<?php echo get_field('aanbod_rouwkaarten_afbeelding', 'option'); ?>" alt="">
+            <h3><?php echo get_field('aanbod_rouwkaarten_titel', 'option'); ?></h3>
+            <p><?php echo get_field('aanbod_rouwkaarten_uitleg', 'option'); ?></p>
+            <button class="btn"><?php echo get_field('aanbod_rouwkaarten_knop', 'option'); ?></button>
+          </div>
+          <div class="box">
+            <img src="<?php echo get_field('online_condoleance_afbeelding', 'option'); ?>" alt="">
+            <h3><?php echo get_field('online_condoleance_titel', 'option'); ?></h3>
+            <p><?php echo get_field('online_condoleance_uitleg', 'option'); ?></p>
+            <button class="btn"><?php echo get_field('online_condoleance_knop', 'option'); ?></button>
+          </div>
+        </div> 
+      </div>
     </div>
   </section>
 

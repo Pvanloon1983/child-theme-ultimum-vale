@@ -101,6 +101,9 @@ body.logged-in > header {
 * #.# Navbar styling
 *
 */
+.flex-container-cart-buttons-search {
+  display: none;
+}
 
 .navbar-main .menu-main-menu-container > ul > li > ul {
   top: 110%;
@@ -272,14 +275,14 @@ body.logged-in > header {
 
 .section.pakketten
 .pakket {
-  // box-shadow: rgb(163, 163, 163, 0.2) 0px 2px 8px 0px;
+  box-shadow: rgb(163, 163, 163, 0.2) 0px 2px 8px 0px;
   text-align: center;  
   flex: 1;
   padding: 27px 30px 30px 30px;
   margin: 10px;
   transition: all 0.3s;
   cursor: pointer;
-  border: 1px solid #dfdfdf;
+  // border: 1px solid #dfdfdf;
   background-color: #fff;
 }
 
@@ -381,7 +384,7 @@ body.logged-in > header {
 .box-1 {
   background-color: rgba(255, 255, 255, 0.645);
   padding: 50px;
-  box-shadow: rgb(47, 47, 47, 0.2) 0px 2px 8px 0px;
+  box-shadow: rgb(163 163 163 / 20%) 0px 2px 8px 0px;
 }
 
 .section.uitleg
@@ -424,6 +427,86 @@ body.logged-in > header {
   cursor: pointer;
   background-color: var(--secondary-color);
   color: #fff;
+}
+
+/*
+* #.# Section wat bieden wij
+*
+*/
+.section.wat-bieden-wij
+.overlay {
+  padding: 50px 0 50px 0;
+  // padding: 43px 0 50px 0;
+  width: 100%; 
+  height: 100%; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  background-image: -webkit-linear-gradient(90deg, rgba(255,255,255,1) 0%, rgb(255 255 255 / 54%) 100%, rgb(255 255 255) 100%);
+  background-image: -moz-linear-gradient(90deg, rgba(255,255,255,1) 0%, rgb(255 255 255 / 54%) 100%, rgb(255 255 255) 100%);
+  background-image: -o-linear-gradient(90deg, rgba(255,255,255,1) 0%, rgb(255 255 255 / 54%) 100%, rgb(255 255 255) 100%);
+  background-image: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgb(255 255 255 / 54%) 100%, rgb(255 255 255) 100%);
+}
+
+.section.wat-bieden-wij
+.flex-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section.wat-bieden-wij
+.box {
+  box-shadow: rgb(163 163 163 / 20%) 0px 2px 8px 0px;
+  text-align: center;
+  flex: 1;
+  padding: 27px 30px 30px 30px;
+  margin: 10px;
+  transition: all 0.3s;
+  cursor: pointer;
+  // border: 1px solid #dfdfdf;
+  background-color: rgba(255, 255, 255, 0.645);
+  width: 100%;
+  min-width: 300px;
+}
+
+.section.wat-bieden-wij
+.box img {
+  width: 100%;
+  max-width: 310px;
+}
+
+.section.wat-bieden-wij
+.container > h3 {
+  text-align: center;
+  font-size: 30px;
+  margin: 0px 10px 30px 10px;
+}
+
+.section.wat-bieden-wij
+.box h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.section.wat-bieden-wij
+.box p {
+  margin-top: 0px;
+}
+
+.section.wat-bieden-wij
+.box 
+.btn {
+  border: none;
+  padding: 11px 11px;
+  color: #fff;
+  background-color: var(--secondary-color);
+  cursor: pointer;
+  width: 250px;
+}
+
+.section.wat-bieden-wij
+.box:hover {
+  box-shadow: rgba(163, 163, 163, 0.2) 0px 10px 18px 0px;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -535,7 +618,7 @@ body.logged-in > header {
   .section.uitleg .container .box-1 {
     background-color: rgba(255, 255, 255, 0.645);
     padding: 50px;
-    box-shadow: rgb(47 47 47 / 20%) 0px 2px 8px 0px;
+    box-shadow: rgb(163 163 163 / 20%) 0px 2px 8px 0px;
   }
 
 }
@@ -587,7 +670,7 @@ body.logged-in > header {
   .box-1 {
     background-color: rgba(255, 255, 255, 0.645);
     padding: 30px 20px;
-    box-shadow: rgb(47 47 47 / 20%) 0px 2px 8px 0px;
+    box-shadow: rgb(163 163 163 / 20%) 0px 2px 8px 0px;
   }
 
   .section.uitleg 
@@ -605,6 +688,14 @@ body.logged-in > header {
   }
 
   .section.cta-uitvaart-regelen p {
+    font-size: 20px;
+  }
+
+  /*
+  * #.# Section wat bieden wij
+  *
+  */
+  .section.wat-bieden-wij .container > h3 {
     font-size: 20px;
   }
 
