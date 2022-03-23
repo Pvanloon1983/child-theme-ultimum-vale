@@ -121,7 +121,7 @@
   <section class="section wat-bieden-wij" style="background-image: url('<?php echo get_field('wat_bieden_wij_afbeelding', 'option'); ?>'); background-position: center center; background-repeat: no-repeat; background-size: cover;">
     <div class="overlay">
       <div class="container">
-        <!-- <h3>Wat bieden wij?</h3> -->
+        <h3>Wat bieden wij?</h3>
         <div class="flex-box">  
           <div class="box">
             <img src="<?php echo get_field('aanbod_kisten_afbeelding', 'option'); ?>" alt="">
