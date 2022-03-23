@@ -127,19 +127,19 @@
             <img src="<?php echo get_field('aanbod_kisten_afbeelding', 'option'); ?>" alt="">
             <h3><?php echo get_field('aanbod_kisten_titel', 'option'); ?></h3>
             <p><?php echo get_field('aanbod_kisten_uitleg', 'option'); ?></p>
-            <button class="btn"><?php echo get_field('aanbod_kisten_knop', 'option'); ?></button>
+            <a class="btn-link" href="#"><button class="btn"><?php echo get_field('aanbod_kisten_knop', 'option'); ?></button></a>
           </div>
           <div class="box">
             <img src="<?php echo get_field('aanbod_rouwkaarten_afbeelding', 'option'); ?>" alt="">
             <h3><?php echo get_field('aanbod_rouwkaarten_titel', 'option'); ?></h3>
             <p><?php echo get_field('aanbod_rouwkaarten_uitleg', 'option'); ?></p>
-            <button class="btn"><?php echo get_field('aanbod_rouwkaarten_knop', 'option'); ?></button>
+            <a class="btn-link" href="#"><button class="btn"><?php echo get_field('aanbod_rouwkaarten_knop', 'option'); ?></button></a>
           </div>
           <div class="box">
             <img src="<?php echo get_field('online_condoleance_afbeelding', 'option'); ?>" alt="">
             <h3><?php echo get_field('online_condoleance_titel', 'option'); ?></h3>
             <p><?php echo get_field('online_condoleance_uitleg', 'option'); ?></p>
-            <button class="btn"><?php echo get_field('online_condoleance_knop', 'option'); ?></button>
+            <a class="btn-link" href="#"><button class="btn"><?php echo get_field('online_condoleance_knop', 'option'); ?></button></a>
           </div>
         </div> 
       </div>
