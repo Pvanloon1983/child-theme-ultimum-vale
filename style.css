@@ -291,8 +291,8 @@ body.logged-in > header {
   margin: 10px;
   transition: all 0.3s;
   cursor: pointer;
-  // border: 1px solid #dfdfdf;
   background-color: #fff;
+  border-radius: 6px;
 }
 
 .section.pakketten
@@ -396,6 +396,7 @@ body.logged-in > header {
   background-color: rgba(255, 255, 255, 0.645);
   padding: 50px;
   box-shadow: rgb(163 163 163 / 20%) 0px 2px 8px 0px;
+  border-radius: 6px;
 }
 
 .section.uitleg
@@ -478,10 +479,10 @@ body.logged-in > header {
   margin: 10px;
   transition: all 0.3s;
   cursor: pointer;
-  // border: 1px solid #dfdfdf;
   background-color: rgba(255, 255, 255, 0.645);
   width: 100%;
   min-width: 300px;
+  border-radius: 6px;
 }
 
 .section.wat-bieden-wij
