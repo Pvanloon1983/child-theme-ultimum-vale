@@ -101,7 +101,8 @@ body.logged-in > header {
 * #.# Navbar styling
 *
 */
-.flex-container-cart-buttons-search {
+.flex-container-cart-buttons-search
+.btn-search {
   display: none;
 }
 
