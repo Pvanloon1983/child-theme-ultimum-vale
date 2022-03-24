@@ -203,10 +203,7 @@ body.logged-in > header {
   display: flex; 
   justify-content: center; 
   align-items: center;
-  background-image: -webkit-linear-gradient(90deg, rgba(255,255,255,1) 0%, rgb(255 255 255 / 54%) 100%, rgb(255 255 255) 100%);
-  background-image: -moz-linear-gradient(90deg, rgba(255,255,255,1) 0%, rgb(255 255 255 / 54%) 100%, rgb(255 255 255) 100%);
-  background-image: -o-linear-gradient(90deg, rgba(255,255,255,1) 0%, rgb(255 255 255 / 54%) 100%, rgb(255 255 255) 100%);
-  background-image: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgb(255 255 255 / 54%) 100%, rgb(255 255 255) 100%);
+  background-image: linear-gradient(to left, rgba(255,255,255,0.7), rgba(255,255,255,0.9));
 }
 
 .header-hero
@@ -366,10 +363,7 @@ body.logged-in > header {
   display: flex; 
   justify-content: center; 
   align-items: center;
-  background-image: -webkit-linear-gradient(90deg, rgba(255,255,255,1) 0%, rgb(255 255 255 / 54%) 100%, rgb(255 255 255) 100%);
-  background-image: -moz-linear-gradient(90deg, rgba(255,255,255,1) 0%, rgb(255 255 255 / 54%) 100%, rgb(255 255 255) 100%);
-  background-image: -o-linear-gradient(90deg, rgba(255,255,255,1) 0%, rgb(255 255 255 / 54%) 100%, rgb(255 255 255) 100%);
-  background-image: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgb(255 255 255 / 54%) 100%, rgb(255 255 255) 100%);
+  background-image: linear-gradient(to left, rgba(255,255,255,0.7), rgba(255,255,255,0.9));
 }
 
 .section.uitleg
@@ -457,10 +451,7 @@ body.logged-in > header {
   display: flex; 
   justify-content: center; 
   align-items: center;
-  background-image: -webkit-linear-gradient(90deg, rgba(255,255,255,1) 0%, rgb(255 255 255 / 54%) 100%, rgb(255 255 255) 100%);
-  background-image: -moz-linear-gradient(90deg, rgba(255,255,255,1) 0%, rgb(255 255 255 / 54%) 100%, rgb(255 255 255) 100%);
-  background-image: -o-linear-gradient(90deg, rgba(255,255,255,1) 0%, rgb(255 255 255 / 54%) 100%, rgb(255 255 255) 100%);
-  background-image: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgb(255 255 255 / 54%) 100%, rgb(255 255 255) 100%);
+  background-image: linear-gradient(to left, rgba(255,255,255,0.7), rgba(255,255,255,0.9));
 }
 
 .section.wat-bieden-wij
@@ -491,7 +482,6 @@ body.logged-in > header {
 .box img {
   width: 100%;
   max-width: 310px;
-  display: none;
 }
 
 .section.wat-bieden-wij
@@ -503,7 +493,7 @@ body.logged-in > header {
 
 .section.wat-bieden-wij
 .box h3 {
-  margin-top: 5px;
+  margin-top: 15px;
   margin-bottom: 15px;
 }
 
