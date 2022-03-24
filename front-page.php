@@ -146,6 +146,19 @@
     </div>
   </section>
 
+  <section class="section waardige-uitvaart">
+    <div class="container">
+      <h3>Een waardige & respectvolle uitvaart hoeft niet veel te kosten</h3>
+      <div class="flex-box">
+        <div class="inner-text-box box box-1">
+          <p>Wij hebben ervoor gekozen om <a href="#">vijf duidelijke pakketten</a> te maken met verschillende prijzen. Wij denken dat wij daardoor de nabestaanden rust kunnen bieden, terwijl zij de juiste begeleiding krijgen van ons in de dagen voordat de uitvaart gaat plaatsvinden.</p>
+          <p>Uitvaartverzorging Ultimum Vale  is er om u te ondersteunen in deze moeilijke tijd en zorgt dat deze laatste groet geheel volgens uw wens verloopt.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
 </div>
 
 <?php get_footer(); ?>
