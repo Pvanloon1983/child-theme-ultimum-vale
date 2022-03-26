@@ -380,7 +380,8 @@ body.logged-in > header {
 .container
 .uitleg-box {
   width: 100%;
-  max-width: 700px;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .section.uitleg
@@ -394,7 +395,7 @@ body.logged-in > header {
 .box-1 {
   // background-color: rgba(255, 255, 255, 0.645);
   background-color: #fff;
-  padding: 50px;
+  padding: 45px 50px 50px 50px;
   box-shadow: rgb(163 163 163 / 20%) 0px 2px 8px 0px;
   border-radius: 6px;
 }
@@ -403,6 +404,8 @@ body.logged-in > header {
 .container
 .box-1 h3 {
   font-size: 30px;
+  text-align: center;
+  margin-bottom: 25px;
 }
 
 /*
@@ -650,7 +653,7 @@ body.logged-in > header {
 .section.begeleid-door
 .box i {
   font-size: 25px;
-  color: var(--text-color);
+  color: var(--main-color);
 }
 
 .section.begeleid-door
