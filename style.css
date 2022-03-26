@@ -843,6 +843,7 @@ body.logged-in > header {
   .container 
   .box-1 h3 {
     font-size: 25px;
+    text-align: left;
   }
 
   /*
