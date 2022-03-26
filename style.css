@@ -28,6 +28,11 @@ Updated: 2022-03-08 17:13:41
   --global-font-weight-menu: 500;
 }
 
+* {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent;
+}
+
 .main-content {
   padding-top: 158px !important;
 }
@@ -259,7 +264,7 @@ body.logged-in > header {
 *
 */
 .section.pakketten {
-  padding: 50px 0;
+  padding: 35px 0 50px 0;
   background-color: #F8F8F8;
 }
 
@@ -405,7 +410,7 @@ body.logged-in > header {
 *
 */
 .section.cta-uitvaart-regelen {
-  padding: 50px 0px 60px 0;
+  padding: 44px 0px 60px 0;
   background-color: #F8F8F8;
 }
 
@@ -444,8 +449,7 @@ body.logged-in > header {
 */
 .section.wat-bieden-wij
 .overlay {
-  // padding: 50px 0 50px 0;
-  padding: 43px 0 50px 0;
+  padding: 36px 0 50px 0;
   width: 100%; 
   height: 100%; 
   display: flex; 
@@ -551,10 +555,15 @@ body.logged-in > header {
   text-align: center;
 }
 
-.section.waardige-uitvaart p {
-  margin-top: 20px;
+.section.waardige-uitvaart .box-1 {
+  margin-top: 0px;
   font-size: 22px;
   text-align: center;
+}
+
+
+.section.waardige-uitvaart p:last-child {
+  margin-bottom: 0;
 }
 
 .section.waardige-uitvaart a {
@@ -582,6 +591,80 @@ body.logged-in > header {
   border-radius: 6px;
 }
 
+
+/*
+* #.# Section Home page begeleid door heel Nederland
+*
+*/
+.section.begeleid-door
+.overlay {
+  padding: 43px 0 50px 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to left, rgba(255,255,255,0.7), rgba(255,255,255,0.9));
+}
+
+.section.begeleid-door
+.flex-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.section.begeleid-door h3 {
+  text-align: center;
+  color: var(--main-color);
+  font-size: 30px;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.section.begeleid-door
+.box {
+  box-shadow: rgb(163 163 163 / 20%) 0px 2px 8px 0px;
+  text-align: center;
+  flex: 1;
+  padding: 27px 30px 30px 30px;
+  margin: 10px;
+  transition: all 0.3s;
+  cursor: pointer;
+  // background-color: rgba(255, 255, 255, 0.645);
+  background-color: #fff;
+  width: 100%;
+  min-width: 300px;
+  border-radius: 6px;
+
+}
+
+.section.begeleid-door
+.box p {
+  margin: 10px 0 0 0;
+}
+
+.section.begeleid-door
+.box i {
+  font-size: 25px;
+  color: var(--text-color);
+}
+
+.section.begeleid-door
+.box
+.btn {
+  border: none;
+  padding: 11px 20px;
+  cursor: pointer;
+  background-color: var(--main-color);
+  color: #fff;
+  box-shadow: 0 3px 0 0 #c7b3ab;
+  border-radius: 6px;
+  margin-top: 15px;
+}
 
 
 /*
@@ -789,6 +872,14 @@ body.logged-in > header {
   
   .section.waardige-uitvaart p {
     font-size: 20px;
+  }
+
+  /*
+  * #.# Section begeleid door home page
+  *
+  */
+  .section.begeleid-door h3 {
+    font-size: 25px;
   }
 
 }
