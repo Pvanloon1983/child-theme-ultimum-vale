@@ -41,6 +41,10 @@ Updated: 2022-03-08 17:13:41
   max-width: 1200px;
 }
 
+p {
+  font-size: 20px;
+}
+
 
 /*
 * #.# Tobar styling
@@ -362,7 +366,7 @@ body.logged-in > header {
 */
 .section.uitleg
 .overlay {
-  padding: 50px 0;
+  padding: 45px 0 50px 0;
   width: 100%; 
   height: 100%; 
   display: flex; 
@@ -372,16 +376,12 @@ body.logged-in > header {
 }
 
 .section.uitleg
-.container {
-  display: flex;  
-}
-
-.section.uitleg
 .container
 .uitleg-box {
   width: 100%;
-  max-width: 900px;
   margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .section.uitleg
@@ -392,20 +392,34 @@ body.logged-in > header {
 
 .section.uitleg
 .container
-.box-1 {
+.box {
   // background-color: rgba(255, 255, 255, 0.645);
   background-color: #fff;
-  padding: 45px 50px 50px 50px;
+  padding: 20px 50px 40px 50px;
   box-shadow: rgb(163 163 163 / 20%) 0px 2px 8px 0px;
   border-radius: 6px;
+  margin: 10px;
+  flex: 1;
 }
 
 .section.uitleg
 .container
-.box-1 h3 {
+.box-1 {
+  border-left: 4px solid var(--secondary-color);
+}
+
+.section.uitleg
+.container
+.box-2 {
+  border-left: 4px solid var(--secondary-color);
+}
+
+.section.uitleg
+.container
+h3 {
   font-size: 30px;
   text-align: center;
-  margin-bottom: 25px;
+  margin-bottom: 35px;
 }
 
 /*
@@ -517,12 +531,10 @@ body.logged-in > header {
   padding: 11px 11px;
   cursor: pointer;
   width: 250px;
-  // background-color: var(--main-color);
   background-color: #fff;
   color: var(--text-color);
   text-decoration: underline;
-  // box-shadow: 0 3px 0 0 #c7b3ab;
-  // border-radius: 6px;
+  font-size: 20px;
 }
 
 .section.wat-bieden-wij
@@ -763,7 +775,16 @@ body.logged-in > header {
   }
 
 
-  
+  /*
+  * #.# Section uitleg
+  *
+  */
+  .section.uitleg 
+  .box {
+    padding: 10px 20px 40px 20px !important;
+  }
+
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -779,11 +800,24 @@ body.logged-in > header {
     max-width: 100%;
   }
 
-  .section.uitleg .container .box-1 {
-    // background-color: rgba(255, 255, 255, 0.645);
-    background-color: #fff;
-    padding: 50px;
-    box-shadow: rgb(163 163 163 / 20%) 0px 2px 8px 0px;
+  /*
+  * #.# Section uitleg
+  *
+  */
+  .section.uitleg 
+  .box {
+    padding: 5px 20px 30px 20px !important;
+    flex: 100% !important;
+  }
+
+  .section.uitleg .container h3 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 35px;
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 }
@@ -795,15 +829,7 @@ body.logged-in > header {
   }
 
   .header-hero-block.block-1 p {
-    font-size: 18px;
-  }
-
-  .header-hero .block-1 .btn {
-    // padding: 8px 15px;
-  }
-
-  .top-bar .button-container .btn-2 {
-    // padding: 8px 15px !important;
+    font-size: 20px;
   }
 
   .header-hero .container 
@@ -884,6 +910,26 @@ body.logged-in > header {
   */
   .section.begeleid-door h3 {
     font-size: 25px;
+  }
+
+  /*
+  * #.# Section uitleg
+  *
+  */
+  .section.uitleg 
+  .box {
+    padding: 5px 20px 30px 20px !important;
+    flex: 100% !important;
+  }
+
+  .section.uitleg .container h3 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+    width: 100%;
+    max-width: 400px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
 }

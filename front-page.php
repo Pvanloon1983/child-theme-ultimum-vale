@@ -95,15 +95,19 @@
 
   <section class="section uitleg" style="background-image: url('<?php echo get_field('eerste_uitleg_afbeelding', 'option'); ?>');           background-position: center center; background-repeat: no-repeat; background-size: cover;">
   <div class="overlay">
-          <div class="container">
-        
-      <div class="uitleg-box box-1">
-        <h3>Wij nemen de tijd om alle beslissingen met u te bespreken</h3>
-        <p>Of de overledene nu wel of niet verzekerd is: ook zonder verzekering kunnen wij de uitvaart verzorgen. Als de overledene verzekerd is, bij voorbeeld bij DELA, Yarden, Ardanta etc,  kunnen jullie altijd door ons de uitvaart laten verzorgen. </p>
-        <p>Wij respecteren volledig uw wensen en zullen deze uitvoeren zoals u dat van ons verwacht.
-        Ultimum Vale betekent in het Latijn een laatste groet. De laatste groet naar een overledene is voor iedereen anders. Sommige mensen hechten geen waarde aan de dood. En brengen een laatste groet aan het sterfbed van de overledene, waarna er een crematie in stilte plaats zal vinden.</p>
-        <p>Een ander wil graag een laatste groet brengen in een familiekamer van het crematorium. Terwijl sommige mensen meer waarde hechten aan een compleet afscheid in de aula van het crematorium/begraafplaats. Met eventueel een aansluitend informeel samenzijn in de ontvangstruimte van het crematorium of begraafplaats. Misschien vindt u het juist prettiger om op een andere locatie uw gasten te mogen ontvangen.</p>
-        <p>Uitvaartverzorging Ultimum Vale werkt landelijk. In elke provincie hebben wij deskundige uitvaartbegeleiders die u professioneel bijstaan en alle zorgen rondom de uitvaart voor u uit handen neemt. Onze professionele werkwijze is gebouwd op vele jaren van ervaring. Zo zorgen wij dat de laatste groet van uw dierbare altijd waardig verloopt.</p>
+          <div class="container">    
+          <h3>Wij nemen de tijd om alle beslissingen met u te bespreken</h3>      
+      <div class="uitleg-box">        
+        <div class="box box-1"> 
+          <p>Wij respecteren volledig uw wensen en zullen deze uitvoeren zoals u dat van ons verwacht.
+          Ultimum Vale betekent in het Latijn een laatste groet. De laatste groet naar een overledene is voor iedereen anders. Sommige mensen hechten geen waarde aan de dood. En brengen een laatste groet aan het sterfbed van de overledene, waarna er een crematie in stilte plaats zal vinden.</p>
+          <p>Een ander wil graag een laatste groet brengen in een familiekamer van het crematorium. Terwijl sommige mensen meer waarde hechten aan een compleet afscheid in de aula van het crematorium/begraafplaats. Met eventueel een aansluitend informeel samenzijn in de ontvangstruimte van het crematorium of begraafplaats. Misschien vindt u het juist prettiger om op een andere locatie uw gasten te mogen ontvangen.</p>
+        </div>
+        <div class="box box-2">
+          <p>Uitvaartverzorging Ultimum Vale werkt landelijk. In elke provincie hebben wij deskundige uitvaartbegeleiders die u professioneel bijstaan en alle zorgen rondom de uitvaart voor u uit handen neemt. Onze professionele werkwijze is gebouwd op vele jaren van ervaring. Zo zorgen wij dat de laatste groet van uw dierbare altijd waardig verloopt.</p>
+          <p>Of de overledene nu wel of niet verzekerd is: ook zonder verzekering kunnen wij de uitvaart verzorgen. Als de overledene verzekerd is, bij voorbeeld bij DELA, Yarden, Ardanta etc,  kunnen jullie altijd door ons de uitvaart laten verzorgen. </p>
+          <p><em>- Uitvaartverzorging Ultimum Vale</em></p>
+        </div>
       </div>
      
       </div>
