@@ -828,6 +828,10 @@ h3 {
 }
 
 @media only screen and (max-width: 600px) {
+
+  p, .wat-bieden-wij .btn {
+    font-size: 18px !important;
+  }
   
   .header-hero .header-hero-block h1 {
     font-size: 28px;
