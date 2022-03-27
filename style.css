@@ -488,7 +488,7 @@ h3 {
   box-shadow: rgb(163 163 163 / 20%) 0px 2px 8px 0px;
   text-align: center;
   flex: 1;
-  padding: 27px 30px 30px 30px;
+  padding: 27px 20px 30px 20px;
   margin: 10px;
   transition: all 0.3s;
   cursor: pointer;
@@ -779,6 +779,14 @@ h3 {
     border-left: 1px solid #fafafa;
   }
 
+  /*
+  * #.# Section pakketten
+  *
+  */
+  .section.pakketten .pakket {
+    padding: 27px 15px 30px 15px;
+  }
+
 
   /*
   * #.# Section uitleg
@@ -1010,5 +1018,14 @@ h3 {
     width: 86px;
     height: auto;
   }   
+
+  /*
+  * #.# Section uitleg
+  *
+  */
+  .section.uitleg
+  .box {
+    padding: 5px 10px 20px 10px !important; 
+  }
 
 }
