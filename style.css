@@ -611,6 +611,10 @@ h3 {
 * #.# Section Home page begeleid door heel Nederland
 *
 */
+.section.begeleid-door {
+  border-bottom: 4px solid var(--secondary-color);
+}
+
 .section.begeleid-door
 .overlay {
   padding: 43px 0 50px 0;
