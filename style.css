@@ -126,6 +126,24 @@ body.logged-in > header {
   border: 1px solid #fafafa !important;
 }
 
+.navbar-main .menu-main-menu-container > ul > li {
+  float: left;
+  position: relative;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-main .menu-main-menu-container > ul > li > a {
+  text-decoration: none;
+  padding: 5px 15px;
+  display: block;
+  color: var(--text-color);
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
 /* Navbar submenu styling */
 .navbar-main .menu-main-menu-container > ul > li > ul > li > a {
   width: 200px;
@@ -133,6 +151,12 @@ body.logged-in > header {
 
 .navbar-main .menu-main-menu-container > ul > li > ul > li > ul > li > a {
   box-shadow: rgba(163, 163, 163, 0.2) 6px 8px 8px 0px;
+}
+
+.navbar-main .menu-main-menu-container > ul > li > ul {
+  top: 100%;
+  width: 200px;
+  box-shadow: rgb(163 163 163 / 20%) 0px 8px 8px 0px;
 }
 
 /*
