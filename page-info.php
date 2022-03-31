@@ -30,10 +30,6 @@
           } // end while
         } // end if
         ?>
-      <div class="image-container">
-        <img src="https://vale.cmswebdesign.nl/wp-content/uploads/2022/03/Peroneel-Gras-300x199-1.jpg" alt="">
-        <img src="https://vale.cmswebdesign.nl/wp-content/uploads/2022/03/Peroneel-zitten-300x199-1.jpg" alt="">
-      </div>
       </div>
       <div class="box-content">
         <div class="box-info">
@@ -49,7 +45,7 @@
   <section class="section begeleid-door" style="background-image: url('<?php echo $begeleid['begeleid_door_afbeelding']; ?>'); background-position: center center; background-repeat: no-repeat; background-size: cover;">
     <div class="overlay">
       <div class="container">
-      <h3>Wij verzorgen door heel Nederland eerbiedwaardige uitvaarten, begeleid door professionele uitvaartverzorgers uit uw eigen regio.</h3>
+      <h3>Wilt u meer informatie?.</h3>
         <div class="flex-box">
           <div class="box">
             <i class="fa-solid fa-envelope"></i> 
