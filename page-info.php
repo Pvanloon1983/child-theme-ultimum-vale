@@ -13,6 +13,7 @@
         <div class="header-hero-inside-container">
           <div class="header-hero-block block-1">
             <h1><?php the_title(); ?></h1>
+            <p>Wij zijn met Uitvaartverzorging Ultimum Vale in februari 2020 begonnen met haar werkzaamheden. In verschillende functies hebben wij ervaring in de uitvaartbranche. Wij beseffen dat wij op een heel moeilijk moment in contact komen met nabestaanden die net een dierbare hebben verloren. Nabestaanden zijn vaak zwak en kwetsbaar.</p>
           </div>
         </div>
       </div>
@@ -40,37 +41,6 @@
       </div>
     </div>
   </div>
-
-  <?php $begeleid = get_field('begeleid_door', 'option'); ?>
-  <section class="section begeleid-door" style="background-image: url('<?php echo $begeleid['begeleid_door_afbeelding']; ?>'); background-position: center center; background-repeat: no-repeat; background-size: cover;">
-    <div class="overlay">
-      <div class="container">
-        <div class="flex-box">
-          <div class="box">
-            <i class="fa-solid fa-envelope"></i> 
-            <p><?php echo $begeleid['begeleid_door_email']; ?></p>
-            <button class="btn">
-              Stuur een E-mail
-            </button>
-          </div>
-          <div class="box">
-          <i class="fa-solid fa-phone"></i> 
-            <p><?php echo $begeleid['begeleid_door_telefoonnummer']; ?></p>
-            <button class="btn">
-              Bel ons direct
-            </button>
-          </div>
-          <div class="box">
-            <i class="fa-solid fa-comment-dots"></i>
-            <p><?php echo $begeleid['begeleid_door_bericht']; ?></p>
-            <button class="btn">
-              Naar het contactformulier
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
 </div>
 
