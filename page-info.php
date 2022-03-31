@@ -31,8 +31,8 @@
         } // end if
         ?>
       <div class="image-container">
-        <img src="http://nieuwvale.test/wp-content/uploads/2022/03/Peroneel-Gras-300x199-1.jpg" alt="">
-        <img src="http://nieuwvale.test/wp-content/uploads/2022/03/Peroneel-zitten-300x199-1.jpg" alt="">
+        <img src="https://vale.cmswebdesign.nl/wp-content/uploads/2022/03/Peroneel-Gras-300x199-1.jpg" alt="">
+        <img src="https://vale.cmswebdesign.nl/wp-content/uploads/2022/03/Peroneel-zitten-300x199-1.jpg" alt="">
       </div>
       </div>
       <div class="box-content">
