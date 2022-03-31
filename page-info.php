@@ -45,7 +45,6 @@
   <section class="section begeleid-door" style="background-image: url('<?php echo $begeleid['begeleid_door_afbeelding']; ?>'); background-position: center center; background-repeat: no-repeat; background-size: cover;">
     <div class="overlay">
       <div class="container">
-      <h3>Wilt u meer informatie?.</h3>
         <div class="flex-box">
           <div class="box">
             <i class="fa-solid fa-envelope"></i> 
