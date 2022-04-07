@@ -346,6 +346,7 @@ body.logged-in > header {
 .pakket
 .p-title {
   margin-top: 0;
+  margin-bottom: 0;
   font-weight: 600;
   color: var(--main-color);
 }
@@ -353,6 +354,7 @@ body.logged-in > header {
 .section.pakketten
 .pakket
 .p-crem {
+  margin-top: 0;
   margin-bottom: 0;
 }
 
@@ -360,11 +362,13 @@ body.logged-in > header {
 .pakket
 .p-crem-prijs {
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .section.pakketten
 .pakket
 .p-begr {
+  margin-top: 0;
   margin-bottom: 0;
 }
 
@@ -372,6 +376,7 @@ body.logged-in > header {
 .pakket
 .p-begr-prijs {
   margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .section.pakketten
@@ -850,6 +855,122 @@ h3 {
   background-image: linear-gradient(to left, rgba(255,255,255,0.7), rgba(255,255,255,0.9));
 }
 
+/*
+* Page template met alle pakketten rechts
+*
+*/
+.page-template-page-pakketten-sidebar
+.two-column-section 
+.box-content {
+  padding: 0px;
+  margin-bottom: 30px;
+  border: none;
+}
+
+.page-template-page-pakketten-sidebar
+.flex-box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.page-template-page-pakketten-sidebar 
+.flex-box a {
+  text-decoration: none;
+}
+
+.page-template-page-pakketten-sidebar
+.pakket:first-child {
+  margin-top: 0;
+}
+
+.page-template-page-pakketten-sidebar
+.pakket {
+  box-shadow: none;
+  border: 1px solid var(--secondary-color);
+  text-align: center;
+  flex: 1;
+  padding: 20px 30px 30px 30px;
+  margin: 10px;
+  transition: all 0.3s;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 6px;
+}
+
+.page-template-page-pakketten-sidebar
+.pakket
+.pakket-title {
+  font-weight: bold;
+}
+
+.page-template-page-pakketten-sidebar
+.pakket:hover {
+  box-shadow: none;
+}
+
+.page-template-page-pakketten-sidebar
+.pakket 
+.p-pakket {
+  margin-top: 0;
+  margin-bottom: 2px;
+  font-size: 20px;
+}
+
+.page-template-page-pakketten-sidebar
+.pakket 
+.p-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: var(--main-color);
+}
+
+.page-template-page-pakketten-sidebar
+.pakket
+.p-crem {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.page-template-page-pakketten-sidebar
+.pakket
+.p-crem-prijs {
+  margin-top: 0;
+}
+
+.page-template-page-pakketten-sidebar
+.pakket
+.p-begr {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.page-template-page-pakketten-sidebar
+.pakket
+.p-begr-prijs {
+  margin-top: 0;
+}
+
+.page-template-page-pakketten-sidebar
+.pakket
+.pakket-button {
+  margin-top: 5px;
+  border: none;
+  padding: 11px 11px;
+  cursor: pointer;
+  width: 145px;
+  background-color: var(--main-color);
+  color: #fff;
+  box-shadow: 0 3px 0 0 #c7b3ab;
+  border-radius: 6px;
+}
+
+.page-template-page-pakketten-sidebar
+.box-p {
+  display: none;
+}
+
 @media only screen and (max-width: 1024px) {
 
   /*
@@ -990,6 +1111,68 @@ h3 {
     width: 100%;
   }
 
+  /*
+  * Page template met alle pakketten rechts
+  *
+  */
+  .page-template-page-pakketten-sidebar
+  .two-column-section 
+  .box-content {
+    padding: 0px;
+    margin-bottom: 30px;
+    border: none;
+  }
+
+  .page-template-page-pakketten-sidebar
+  .flex-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .page-template-page-pakketten-sidebar 
+  .flex-box a {
+    text-decoration: none;
+  }
+
+  .page-template-page-pakketten-sidebar
+  .pakket:first-child {
+    margin-top: 10px;
+  }
+
+  .page-template-page-pakketten-sidebar
+  .box-span {
+    display: none;
+  }
+
+  .page-template-page-pakketten-sidebar
+  .box-p {
+    display: block;
+  }
+
+  .page-template-page-pakketten-sidebar
+  .box-p
+  .p-pakket {
+    margin-bottom: 25px;
+  } 
+
+  .page-template-page-pakketten-sidebar
+  .box-p
+  .p-crem-prijs {
+    margin-bottom: 0;
+  }
+
+  .page-template-page-pakketten-sidebar
+  .box-p
+  .p-begr {
+    margin-bottom: 0;
+  }
+
+  .page-template-page-pakketten-sidebar
+  .box-p
+  .p-begr-prijs {
+    margin-bottom: 10px;
+  }
 
 }
 
@@ -1182,6 +1365,32 @@ h3 {
     margin: 0;
     margin-bottom: 20px;
   }
+
+
+  /*
+  * Page template met alle pakketten rechts
+  *
+  */
+  .page-template-page-pakketten-sidebar
+  .flex-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .page-template-page-pakketten-sidebar
+  .two-column-section 
+  .box-content {
+    padding: 0px;
+    margin-bottom: 10px;
+    border: none;
+  }
+
+  .page-template-page-pakketten-sidebar
+  .pakket {
+    margin-left: 0;
+    margin-right: 0;
+  } 
 
 }
 
