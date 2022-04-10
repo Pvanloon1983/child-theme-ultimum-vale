@@ -32,7 +32,7 @@
         ?>
       </div>
       <div class="box-content">
-
+      <h2 class="uitvaartpakketten-heading">Uitvaartpakketten</h2>
     <div class="flex-box">
       <a href="#" class="pakket"><div>
       <div class="box-span">
