@@ -13,7 +13,6 @@
         <div class="header-hero-inside-container">
           <div class="header-hero-block block-1">
             <h1><?php the_title(); ?></h1>
-            <p>Wij zijn met Uitvaartverzorging Ultimum Vale in februari 2020 begonnen met haar werkzaamheden. In verschillende functies hebben wij ervaring in de uitvaartbranche. Wij beseffen dat wij op een heel moeilijk moment in contact komen met nabestaanden die net een dierbare hebben verloren. Nabestaanden zijn vaak zwak en kwetsbaar.</p>
           </div>
         </div>
       </div>

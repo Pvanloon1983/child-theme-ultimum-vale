@@ -1,6 +1,6 @@
 <?php get_header(); 
 /**
- * Template Name: Alle pakketten Sidebar
+ * Template Name: Begrafenis pakketten Sidebar
  *
  */
 ?>
@@ -141,6 +141,6 @@
     </div>
   </div>
 
-</main>
+      </main>
 
 <?php get_footer(); ?>

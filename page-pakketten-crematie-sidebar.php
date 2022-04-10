@@ -1,6 +1,6 @@
 <?php get_header(); 
 /**
- * Template Name: Alle pakketten Sidebar
+ * Template Name: Crematie pakketten Sidebar
  *
  */
 ?>
@@ -32,13 +32,12 @@
         ?>
       </div>
       <div class="box-content">
-
+      <h2 class="uitvaartpakketten-heading">Uitvaartpakketten</h2>
     <div class="flex-box">
       <a href="#" class="pakket"><div>
       <div class="box-span">
         <p class="p-pakket">Uitvaartpakket: <span class="pakket-title">Basis</span></p>
           <p class="p-crem">Crematie vanaf: <span>€ 1495,-</span></p>
-          <p class="p-begr">Begrafenis vanaf: <span>€ 1495,-</p>
         </div>
 
         <div class="box-p">
@@ -46,8 +45,6 @@
           <p class="p-title">Basis</p>
           <p class="p-crem">Crematie vanaf</p>
           <p class="p-crem-prijs">€ 1495,-</p>
-          <p class="p-begr">Begrafenis vanaf</p>
-          <p class="p-begr-prijs">€ 1920,-</p>
         </div>
 
         <button class="pakket-button">
@@ -58,7 +55,6 @@
       <div class="box-span">
         <p class="p-pakket">Uitvaartpakket: <span class="pakket-title">Basis</span></p>
           <p class="p-crem">Crematie vanaf: <span>€ 1495,-</span></p>
-          <p class="p-begr">Begrafenis vanaf: <span>€ 1495,-</p>
         </div>
 
         <div class="box-p">
@@ -66,8 +62,6 @@
           <p class="p-title">Basis</p>
           <p class="p-crem">Crematie vanaf</p>
           <p class="p-crem-prijs">€ 1495,-</p>
-          <p class="p-begr">Begrafenis vanaf</p>
-          <p class="p-begr-prijs">€ 1920,-</p>
         </div>
 
         <button class="pakket-button">
@@ -78,7 +72,6 @@
       <div class="box-span">
         <p class="p-pakket">Uitvaartpakket: <span class="pakket-title">Basis</span></p>
           <p class="p-crem">Crematie vanaf: <span>€ 1495,-</span></p>
-          <p class="p-begr">Begrafenis vanaf: <span>€ 1495,-</p>
         </div>
 
         <div class="box-p">
@@ -86,28 +79,6 @@
           <p class="p-title">Basis</p>
           <p class="p-crem">Crematie vanaf</p>
           <p class="p-crem-prijs">€ 1495,-</p>
-          <p class="p-begr">Begrafenis vanaf</p>
-          <p class="p-begr-prijs">€ 1920,-</p>
-        </div>
-
-        <button class="pakket-button">
-          Bekijk het pakket
-        </button>
-      </div></a>
-      <a href="#" class="pakket"><div>
-        <div class="box-span">
-        <p class="p-pakket">Uitvaartpakket: <span class="pakket-title">Basis</span></p>
-          <p class="p-crem">Crematie vanaf: <span>€ 1495,-</span></p>
-          <p class="p-begr">Begrafenis vanaf: <span>€ 1495,-</p>
-        </div>
-
-        <div class="box-p">
-        <p class="p-pakket">Uitvaartpakket</p>
-          <p class="p-title">Basis</p>
-          <p class="p-crem">Crematie vanaf</p>
-          <p class="p-crem-prijs">€ 1495,-</p>
-          <p class="p-begr">Begrafenis vanaf</p>
-          <p class="p-begr-prijs">€ 1920,-</p>
         </div>
 
         <button class="pakket-button">
@@ -118,7 +89,6 @@
       <div class="box-span">
         <p class="p-pakket">Uitvaartpakket: <span class="pakket-title">Basis</span></p>
           <p class="p-crem">Crematie vanaf: <span>€ 1495,-</span></p>
-          <p class="p-begr">Begrafenis vanaf: <span>€ 1495,-</p>
         </div>
 
         <div class="box-p">
@@ -126,14 +96,30 @@
           <p class="p-title">Basis</p>
           <p class="p-crem">Crematie vanaf</p>
           <p class="p-crem-prijs">€ 1495,-</p>
-          <p class="p-begr">Begrafenis vanaf</p>
-          <p class="p-begr-prijs">€ 1920,-</p>
         </div>
 
         <button class="pakket-button">
           Bekijk het pakket
         </button>
       </div></a>
+      <a href="#" class="pakket"><div>
+      <div class="box-span">
+        <p class="p-pakket">Uitvaartpakket: <span class="pakket-title">Basis</span></p>
+          <p class="p-crem">Crematie vanaf: <span>€ 1495,-</span></p>
+        </div>
+
+        <div class="box-p">
+        <p class="p-pakket">Uitvaartpakket</p>
+          <p class="p-title">Basis</p>
+          <p class="p-crem">Crematie vanaf</p>
+          <p class="p-crem-prijs">€ 1495,-</p>
+        </div>
+
+        <button class="pakket-button">
+          Bekijk het pakket
+        </button>
+      </div></a>
+      
     
     </div>
 
