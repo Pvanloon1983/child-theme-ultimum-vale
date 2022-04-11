@@ -31,7 +31,7 @@
         } // end if
         ?>
       </div>
-      <div class="box-content">
+      <div class="box-content box-content-pakketten box-content-small-pakketten">
       <h2 class="uitvaartpakketten-heading">Uitvaartpakketten</h2>
     <div class="flex-box">
       <a href="#" class="pakket"><div>

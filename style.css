@@ -861,53 +861,58 @@ ul li {
 }
 
 /*
-* Page template met alle pakketten rechts
+* Page template pakketten rechts
 *
 */
+.page-template-page-pakketten-sidebar
+.uitvaartpakketten-heading {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
 .page-template
 .uitvaartpakketten-heading {
   text-align: center;
-  margin-bottom: 22px;
 }
 
-.page-template-page-pakketten-crematie-sidebar
-.two-column-section 
-.box-content,
-.page-template-page-pakketten-sidebar
-.two-column-section 
-.box-content {
+.box-content-small-pakketten
+.uitvaartpakketten-heading {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.page-template
+.two-column-section
+.box-content-pakketten {
   padding: 0px;
   margin-bottom: 30px;
   border: none;
   margin-top: 9px;
 }
 
-.page-template-page-pakketten-crematie-sidebar
-.flex-box,
-.page-template-page-pakketten-sidebar
+.box-content-pakketten
 .flex-box {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
 }
 
-.page-template-page-pakketten-crematie-sidebar
-.flex-box a,
-.page-template-page-pakketten-sidebar 
+.box-content-pakketten
 .flex-box a {
   text-decoration: none;
 }
 
-.page-template-page-pakketten-crematie-sidebar
-.pakket:first-child,
-.page-template-page-pakketten-sidebar
+// .box-content-pakketten
+// .pakket:first-child {
+//   margin-top: 0;
+// }
+
+.box-content-small-pakketten
 .pakket:first-child {
-  margin-top: 0;
+  margin-top: 10px;
 }
 
-.page-template-page-pakketten-crematie-sidebar
-.pakket,
-.page-template-page-pakketten-sidebar
+.box-content-pakketten
 .pakket {
   box-shadow: none;
   border: 1px solid var(--secondary-color);
@@ -921,26 +926,18 @@ ul li {
   border-radius: 6px;
 }
 
-.page-template-page-pakketten-crematie-sidebar
-.pakket
-.pakket-title,
-.page-template-page-pakketten-sidebar
+.box-content-pakketten
 .pakket
 .pakket-title {
   font-weight: bold;
 }
 
-.page-template-page-pakketten-crematie-sidebar
-.pakket:hover,
-.page-template-page-pakketten-sidebar
+.box-content-pakketten
 .pakket:hover {
   box-shadow: none;
 }
 
-.page-template-page-pakketten-crematie-sidebar
-.pakket 
-.p-pakket,
-.page-template-page-pakketten-sidebar
+.box-content-pakketten
 .pakket 
 .p-pakket {
   margin-top: 0;
@@ -948,10 +945,7 @@ ul li {
   font-size: 20px;
 }
 
-.page-template-page-pakketten-crematie-sidebar
-.pakket 
-.p-title,
-.page-template-page-pakketten-sidebar
+.box-content-pakketten
 .pakket 
 .p-title {
   margin-top: 0;
@@ -960,48 +954,40 @@ ul li {
   color: var(--main-color);
 }
 
-.page-template-page-pakketten-crematie-sidebar
-.pakket
-.p-crem,
-.page-template-page-pakketten-sidebar
+.box-content-pakketten
 .pakket
 .p-crem {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-.page-template-page-pakketten-crematie-sidebar
-.pakket
-.p-crem-prijs,
-.page-template-page-pakketten-sidebar
+.box-content-pakketten
 .pakket
 .p-crem-prijs {
   margin-top: 0;
 }
 
-.page-template-page-pakketten-crematie-sidebar
-.pakket
-.p-begr,
-.page-template-page-pakketten-sidebar
+.box-content-pakketten
 .pakket
 .p-begr {
   margin-top: 0;
   margin-bottom: 10px;
 }
 
-.page-template-page-pakketten-crematie-sidebar
+.box-content-small-pakketten
 .pakket
-.p-begr-prijs,
-.page-template-page-pakketten-sidebar
+.p-begr {
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+.box-content-pakketten
 .pakket
 .p-begr-prijs {
   margin-top: 0;
 }
 
-.page-template-page-pakketten-crematie-sidebar
-.pakket
-.pakket-button,
-.page-template-page-pakketten-sidebar
+.box-content-pakketten
 .pakket
 .pakket-button {
   margin-top: 5px;
@@ -1015,21 +1001,17 @@ ul li {
   border-radius: 6px;
 }
 
-.page-template-page-pakketten-crematie-sidebar
-.box-p,
-.page-template-page-pakketten-sidebar
+.box-content-pakketten
 .box-p {
   display: none;
 }
 
-.page-template-page-pakketten-crematie-sidebar
-.box-span,
-.page-template-page-pakketten-sidebar
+.box-content-pakketten
 .box-span {
   display: block;
 }
 
-.page-template-page-pakketten-crematie-sidebar
+.box-content-small-pakketten
 .pakket
 .pakket-button {
   margin-top: 15px;
@@ -1176,89 +1158,64 @@ ul li {
   }
 
   /*
-  * Page template met alle pakketten rechts
+  * Page template pakketten rechts
   *
   */
-  .page-template-page-pakketten-crematie-sidebar
-  .two-column-section 
-  .box-content,
-  .page-template-page-pakketten-sidebar
-  .two-column-section 
-  .box-content {
+  .page-template
+  .two-column-section
+  .box-content-pakketten {
     padding: 0px;
     margin-bottom: 30px;
     border: none;
     margin-top: 0;
   }
 
-  .page-template-page-pakketten-crematie-sidebar
-  .flex-box,
-  .page-template-page-pakketten-sidebar
+  .box-content-pakketten
   .flex-box {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
   }
 
-  .page-template-page-pakketten-crematie-sidebar
-  .flex-box a,
-  .page-template-page-pakketten-sidebar 
+  .box-content-pakketten
   .flex-box a {
     text-decoration: none;
   }
 
-  .page-template-page-pakketten-crematie-sidebar
-  .pakket:first-child,
-  .page-template-page-pakketten-sidebar
+  .box-content-pakketten
   .pakket:first-child {
     margin-top: 10px;
   }
 
-  .page-template-page-pakketten-crematie-sidebar
-  .box-p,
-  .page-template-page-pakketten-sidebar
+  .box-content-pakketten
   .box-p {
     display: block;
   }
 
-  .page-template-page-pakketten-crematie-sidebar
-  .box-p 
-  .p-title,
-  .page-template-page-pakketten-sidebar
+  .box-content-pakketten
   .box-p 
   .p-title {
     margin-bottom: 0;
   }
  
-  .page-template-page-pakketten-crematie-sidebar
-  .box-span,
-  .page-template-page-pakketten-sidebar
+  .box-content-pakketten
   .box-span {
     display: none;
   }
 
-  .page-template-page-pakketten-crematie-sidebar
-  .box-p
-  .p-pakket,
-  .page-template-page-pakketten-sidebar
+  .box-content-pakketten
   .box-p
   .p-pakket {
     margin-bottom: 0px;
   } 
 
-  .page-template-page-pakketten-crematie-sidebar
-  .box-p
-  .p-crem-prijs,
-  .page-template-page-pakketten-sidebar
+  .box-content-pakketten
   .box-p
   .p-crem-prijs {
     margin-bottom: 0;
   }
 
-  .page-template-page-pakketten-crematie-sidebar
-  .box-p
-  .p-begr,
-  .page-template-page-pakketten-sidebar
+  .box-content-pakketten
   .box-p
   .p-begr {
     margin-bottom: 0;
@@ -1269,13 +1226,17 @@ ul li {
     text-align: center;
   }
 
-  .page-template-page-pakketten-crematie-sidebar
-  .box-p
-  .p-begr-prijs,
-  .page-template-page-pakketten-sidebar
+
+  .box-content-pakketten
   .box-p
   .p-begr-prijs {
     margin-bottom: 10px;
+  }
+
+  .page-template-page-pakketten-begrafenis-sidebar
+  .box-p
+  .p-begr-prijs {
+    margin-bottom: 0px;
   }
   
 
@@ -1465,11 +1426,21 @@ ul li {
   .box-content {
     width: 100%;
     padding: 17px 21px 22px 21px;
-    // box-shadow: rgb(163 163 163 / 20%) 0px 2px 8px 0px;
     border-radius: 6px;
     margin: 0;
     margin-bottom: 20px;
   }
+
+  .page-template
+  .two-column-section
+  .box-content-pakketten {
+    width: 100%;
+    padding: 0px;
+    border-radius: 6px;
+    margin: 0;
+    margin-bottom: 15px;
+  }
+
 
   .two-column-section
   .text-content p:first-child {
@@ -1487,29 +1458,20 @@ ul li {
   * Page template met alle pakketten rechts
   *
   */
-  .page-template-page-pakketten-crematie-sidebar
-  .flex-box,
-  .page-template-page-pakketten-sidebar
+  .box-content-pakketten
   .flex-box {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
   }
 
-  .page-template-page-pakketten-crematie-sidebar
-  .two-column-section 
-  .box-content,
-  .page-template-page-pakketten-sidebar
-  .two-column-section 
-  .box-content {
+  .box-content-pakketten {
     padding: 0px;
     margin-bottom: 10px;
     border: none;
   }
 
-  .page-template-page-pakketten-crematie-sidebar
-  .pakket,
-  .page-template-page-pakketten-sidebar
+  .box-content-pakketten
   .pakket {
     margin-left: 0;
     margin-right: 0;
