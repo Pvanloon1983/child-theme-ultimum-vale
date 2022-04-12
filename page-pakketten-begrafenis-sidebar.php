@@ -34,92 +34,41 @@
       <div class="box-content box-content-pakketten box-content-small-pakketten">
       <h2 class="uitvaartpakketten-heading">Uitvaartpakketten</h2>
     <div class="flex-box">
-      <a href="#" class="pakket"><div>
-      <div class="box-span">
-        <p class="p-pakket">Uitvaartpakket: <span class="pakket-title">Basis</span></p>
-          <p class="p-begr">Begrafenis vanaf: <span>€ 1495,-</p>
-        </div>
 
-        <div class="box-p">
-        <p class="p-pakket">Uitvaartpakket</p>
-          <p class="p-title">Basis</p>
-          <p class="p-begr">Begrafenis vanaf</p>
-          <p class="p-begr-prijs">€ 1920,-</p>
-        </div>
+      <?php
+      $args = array(
+          'post_type' => 'uitvaartpakketten',
+          'posts_per_page' => 5
+      );
+      $the_query = new WP_Query( $args ); ?>
 
-        <button class="pakket-button">
-          Bekijk het pakket
-        </button>
-      </div></a>
-      <a href="#" class="pakket"><div>
-      <div class="box-span">
-        <p class="p-pakket">Uitvaartpakket: <span class="pakket-title">Basis</span></p>
-          <p class="p-begr">Begrafenis vanaf: <span>€ 1495,-</p>
-        </div>
+      <?php if ( $the_query->have_posts() ) : ?>
 
-        <div class="box-p">
-        <p class="p-pakket">Uitvaartpakket</p>
-          <p class="p-title">Basis</p>
-          <p class="p-begr">Begrafenis vanaf</p>
-          <p class="p-begr-prijs">€ 1920,-</p>
-        </div>
+          <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+              
+          <a href="#" class="pakket"><div>
+          <div class="box-span">
+            <p class="p-pakket">Uitvaartpakket: <span class="pakket-title"><?php echo get_field( "soort_pakket" ); ?></span></p>
+              <p class="p-begr">Begrafenis vanaf: <span><?php echo get_field( "begrafenis_vanaf" ); ?></p>
+            </div>
 
-        <button class="pakket-button">
-          Bekijk het pakket
-        </button>
-      </div></a>
-      <a href="#" class="pakket"><div>
-      <div class="box-span">
-        <p class="p-pakket">Uitvaartpakket: <span class="pakket-title">Basis</span></p>
-          <p class="p-begr">Begrafenis vanaf: <span>€ 1495,-</p>
-        </div>
+            <div class="box-p">
+            <p class="p-pakket">Uitvaartpakket</p>
+              <p class="p-title"><?php echo get_field( "soort_pakket" ); ?></p>
+              <p class="p-begr">Begrafenis vanaf</p>
+              <p class="p-begr-prijs"><?php echo get_field( "begrafenis_vanaf" ); ?></p>
+            </div>
 
-        <div class="box-p">
-        <p class="p-pakket">Uitvaartpakket</p>
-          <p class="p-title">Basis</p>
-          <p class="p-begr">Begrafenis vanaf</p>
-          <p class="p-begr-prijs">€ 1920,-</p>
-        </div>
+            <button class="pakket-button">
+              Bekijk het pakket
+            </button>
+          </div></a>
 
-        <button class="pakket-button">
-          Bekijk het pakket
-        </button>
-      </div></a>
-      <a href="#" class="pakket"><div>
-      <div class="box-span">
-        <p class="p-pakket">Uitvaartpakket: <span class="pakket-title">Basis</span></p>
-          <p class="p-begr">Begrafenis vanaf: <span>€ 1495,-</p>
-        </div>
+          <?php endwhile; ?>
 
-        <div class="box-p">
-        <p class="p-pakket">Uitvaartpakket</p>
-          <p class="p-title">Basis</p>
-          <p class="p-begr">Begrafenis vanaf</p>
-          <p class="p-begr-prijs">€ 1920,-</p>
-        </div>
+          <?php wp_reset_postdata(); ?>
 
-        <button class="pakket-button">
-          Bekijk het pakket
-        </button>
-      </div></a>
-      <a href="#" class="pakket"><div>
-      <div class="box-span">
-        <p class="p-pakket">Uitvaartpakket: <span class="pakket-title">Basis</span></p>
-          <p class="p-begr">Begrafenis vanaf: <span>€ 1495,-</p>
-        </div>
-
-        <div class="box-p">
-        <p class="p-pakket">Uitvaartpakket</p>
-          <p class="p-title">Basis</p>
-          <p class="p-begr">Begrafenis vanaf</p>
-          <p class="p-begr-prijs">€ 1920,-</p>
-        </div>
-
-        <button class="pakket-button">
-          Bekijk het pakket
-        </button>
-      </div></a>
-      
+      <?php endif; ?>
     
     </div>
 

@@ -29,62 +29,33 @@
 
     <div class="flex-box">
 
-      <a href="#" class="pakket"><div>
-        <p class="p-pakket">Uitvaartpakket</p>
-        <p class="p-title">Basis</p>
-        <p class="p-crem">Crematie vanaf</p>
-        <p class="p-crem-prijs">€ 1495,-</p>
-        <p class="p-begr">Begrafenis vanaf</p>
-        <p class="p-begr-prijs">€ 1920,-</p>
-        <button class="pakket-button">
-          Bekijk het pakket
-        </button>
-      </div></a>
-      <a href="#" class="pakket"><div>
-        <p class="p-pakket">Uitvaartpakket</p>
-        <p class="p-title">Basis</p>
-        <p class="p-crem">Crematie vanaf</p>
-        <p class="p-crem-prijs">€ 1495,-</p>
-        <p class="p-begr">Begrafenis vanaf</p>
-        <p class="p-begr-prijs">€ 1920,-</p>
-        <button class="pakket-button">
-          Bekijk het pakket
-        </button>
-      </div></a>
-      <a href="#" class="pakket"><div>
-        <p class="p-pakket">Uitvaartpakket</p>
-        <p class="p-title">Basis</p>
-        <p class="p-crem">Crematie vanaf</p>
-        <p class="p-crem-prijs">€ 1495,-</p>
-        <p class="p-begr">Begrafenis vanaf</p>
-        <p class="p-begr-prijs">€ 1920,-</p>
-        <button class="pakket-button">
-          Bekijk het pakket
-        </button>
-      </div></a>
-      <a href="#" class="pakket"><div>
-        <p class="p-pakket">Uitvaartpakket</p>
-        <p class="p-title">Basis</p>
-        <p class="p-crem">Crematie vanaf</p>
-        <p class="p-crem-prijs">€ 1495,-</p>
-        <p class="p-begr">Begrafenis vanaf</p>
-        <p class="p-begr-prijs">€ 1920,-</p>
-        <button class="pakket-button">
-          Bekijk het pakket
-        </button>
-      </div></a>
-      <a href="#" class="pakket"><div>
-        <p class="p-pakket">Uitvaartpakket</p>
-        <p class="p-title">Basis</p>
-        <p class="p-crem">Crematie vanaf</p>
-        <p class="p-crem-prijs">€ 1495,-</p>
-        <p class="p-begr">Begrafenis vanaf</p>
-        <p class="p-begr-prijs">€ 1920,-</p>
-        <button class="pakket-button">
-          Bekijk het pakket
-        </button>
-      </div></a>
- 
+      <?php
+      $args = array(
+          'post_type' => 'uitvaartpakketten',
+          'posts_per_page' => 5
+      );
+      $the_query = new WP_Query( $args ); ?>
+
+      <?php if ( $the_query->have_posts() ) : ?>
+
+          <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>        
+            <a href="#" class="pakket"><div>
+            <p class="p-pakket">Uitvaartpakket</p>
+            <p class="p-title"><?php echo get_field( "soort_pakket" ); ?></p>
+            <p class="p-crem">Crematie vanaf</p>
+            <p class="p-crem-prijs"><?php echo get_field( "crematie_vanaf" ); ?></p>
+            <p class="p-begr">Begrafenis vanaf</p>
+            <p class="p-begr-prijs"><?php echo get_field( "begrafenis_vanaf" ); ?></p>
+            <button class="pakket-button">
+              Bekijk het pakket
+            </button>
+            </div></a>
+
+          <?php endwhile; ?>
+
+          <?php wp_reset_postdata(); ?>
+
+      <?php endif; ?>
 
     </div>
 
