@@ -45,6 +45,23 @@ p {
   font-size: 20px;
 }
 
+.main-content
+.two-column-section ul {
+  padding-left: 20px;
+}
+
+.main-content
+.two-column-section ul li {
+  line-height: 1.9;
+}
+
+.single 
+.main-content,
+.page 
+.main-content {
+  margin-top: 0px;
+}
+
 
 /*
 * #.# Tobar styling
@@ -761,23 +778,34 @@ h3 {
 * #.# Page template styling
 *
 */
+.single-uitvaartpakketten
+.main-content,
 .page-template
 .main-content {
   // background-color: #F8F8F8;
 }
 
+.single-uitvaartpakketten
+.two-column-section
+.container,
 .page-template
 .two-column-section
 .container {
   padding-top: 30px;
 }
 
+.single-uitvaartpakketten
+.two-column-section,
 .page-template
 .two-column-section
 ul li {
   font-size: 20px;
 }
 
+.single-uitvaartpakketten
+.header-hero 
+.container 
+.header-hero-inside-container,
 .page-template
 .header-hero 
 .container 
@@ -788,11 +816,15 @@ ul li {
   padding: 33px 0 40px 0;
 }
 
+.single-uitvaartpakketten
+.header-hero .header-hero-block h1,
 .page-template
 .header-hero .header-hero-block h1 {
   margin-bottom: 0px;
 }
 
+.single-uitvaartpakketten
+.header-hero .block-1,
 .page-template
 .header-hero .block-1 {
   display: flex;
@@ -802,6 +834,8 @@ ul li {
   margin: 0 auto;
 }
 
+.single-uitvaartpakketten
+.header-hero .block-1 p,
 .page-template
 .header-hero .block-1 p {
   margin-bottom: 0;
@@ -809,6 +843,9 @@ ul li {
   width: 65%;
 }
 
+.single-uitvaartpakketten
+.box-content
+.btn,
 .page-template
 .box-content
 .btn {
@@ -821,12 +858,18 @@ ul li {
   cursor: pointer;
 }
 
+.single-uitvaartpakketten
+.two-column-section
+.container,
 .page-template
 .two-column-section
 .container {
   display: flex;
 }
 
+.single-uitvaartpakketten
+.two-column-section
+.text-content,
 .page-template
 .two-column-section
 .text-content {
@@ -837,6 +880,9 @@ ul li {
   margin-top: -20px;
 }
 
+.single-uitvaartpakketten
+.two-column-section
+.box-content,
 .page-template
 .two-column-section
 .box-content {
@@ -849,6 +895,8 @@ ul li {
   border: 1px solid var(--secondary-color);
 }
 
+.single-uitvaartpakketten
+.section.begeleid-door .overlay,
 .page-template
 .section.begeleid-door .overlay {
   padding: 22px 0 23px 0;
@@ -1017,6 +1065,8 @@ ul li {
   margin-top: 15px;
 }
 
+// Single uitvaartpakket styling
+
 @media only screen and (max-width: 1024px) {
 
   /*
@@ -1124,12 +1174,18 @@ ul li {
   * #.# Page template styling
   *
   */
+  .single-uitvaartpakketten
+  .two-column-section
+  .container,
   .page-template
   .two-column-section
   .container {
     flex-wrap: wrap;
   }
 
+  .single-uitvaartpakketten
+  .two-column-section
+  .text-content,
   .page-template
   .two-column-section
   .text-content {
@@ -1141,6 +1197,9 @@ ul li {
     margin-top: -20px;
   }
 
+  .single-uitvaartpakketten
+  .two-column-section
+  .box-content,
   .page-template
   .two-column-section
   .box-content {
@@ -1152,6 +1211,8 @@ ul li {
     margin-bottom: 30px;
   }
 
+  .single-uitvaartpakketten
+  .header-hero .block-1 p,
   .page-template
   .header-hero .block-1 p {
     width: 100%;
@@ -1404,6 +1465,10 @@ ul li {
   * #.# Page template styling
   *
   */
+  .single-uitvaartpakketten
+  .header-hero 
+  .container 
+  .header-hero-inside-container,
   .page-template
   .header-hero 
   .container 
@@ -1411,16 +1476,23 @@ ul li {
     padding: 27px 0 28px 0;
   }
 
+  .single-uitvaartpakketten
+  .header-hero .block-1 p,
   .page-template
   .header-hero .block-1 p {
     width: 100%;
   }
 
+  .single-uitvaartpakketten
+  .main-content,
   .page-template
   .main-content {
     padding-bottom: 15px;
   }
 
+  .single-uitvaartpakketten
+  .two-column-section
+  .box-content,
   .page-template
   .two-column-section
   .box-content {
@@ -1431,6 +1503,9 @@ ul li {
     margin-bottom: 20px;
   }
 
+  .single-uitvaartpakketten
+  .two-column-section
+  .box-content-pakketten,
   .page-template
   .two-column-section
   .box-content-pakketten {
@@ -1447,6 +1522,8 @@ ul li {
     margin-top: 10px;
   }
 
+  .single-uitvaartpakketten
+  .two-column-section,
   .page-template
   .two-column-section
   ul li {

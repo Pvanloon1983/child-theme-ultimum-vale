@@ -39,7 +39,7 @@
       <?php if ( $the_query->have_posts() ) : ?>
 
           <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>        
-            <a href="#" class="pakket"><div>
+            <a href="<?php the_permalink(); ?>" class="pakket"><div>
             <p class="p-pakket">Uitvaartpakket</p>
             <p class="p-title"><?php echo get_field( "soort_pakket" ); ?></p>
             <p class="p-crem">Crematie vanaf</p>
