@@ -33,6 +33,7 @@ Updated: 2022-03-08 17:13:41
   -webkit-tap-highlight-color: transparent;
 }
 
+
 .main-content {
   padding-top: 157px !important;
 }
@@ -875,7 +876,6 @@ ul li {
 .text-content {
   width: 70%;
   padding: 5px 30px 7px 0px;
-  // box-shadow: rgb(163 163 163 / 20%) 0px 2px 8px 0px;
   border-radius: 6px;
   margin-top: -20px;
 }
@@ -888,7 +888,6 @@ ul li {
 .box-content {
   width: 30%;
   padding: 32px 30px 37px 30px;
-  // box-shadow: rgb(163 163 163 / 20%) 0px 2px 8px 0px;
   border-radius: 6px;
   margin: 15px;
   height: fit-content;
@@ -949,11 +948,6 @@ ul li {
 .flex-box a {
   text-decoration: none;
 }
-
-// .box-content-pakketten
-// .pakket:first-child {
-//   margin-top: 0;
-// }
 
 .box-content-small-pakketten
 .pakket:first-child {
@@ -1065,7 +1059,44 @@ ul li {
   margin-top: 15px;
 }
 
-// Single uitvaartpakket styling
+
+/* 
+* #.# Single uitvaartpakket styling
+*
+*/
+.heading-prijs-vanaf {
+  display: flex;
+  margin-top: 15px;
+}
+
+.heading-prijs-vanaf
+.heading-prijs-box {
+  background-color: #fff;
+  padding: 15px;
+  margin: 5px;
+  border-radius: 6px;
+  border: 1px solid var(--secondary-color);
+}
+
+.heading-prijs-vanaf
+.heading-prijs-box:first-child {
+  margin-left: 0;
+}
+
+.heading-prijs-vanaf
+.heading-prijs-box:last-child {
+  margin-left: 5px;
+}
+
+.heading-prijs-vanaf
+.pakket-online-aanvragen i {
+ font-size: 13px;
+ margin-left: 5px;
+}
+
+.heading-prijs-vanaf a {
+  text-decoration: none !important;
+}
 
 @media only screen and (max-width: 1024px) {
 

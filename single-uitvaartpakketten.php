@@ -10,7 +10,9 @@
               <h1><?php the_title(); ?></h1>
               <div class="heading-prijs-vanaf">
                 <div class="heading-prijs-box">Begrafenis vanaf <?php echo get_field( "begrafenis_vanaf" ); ?></div>
-                <div class="heading-prijs-box">Crematie vanaf <?php echo get_field( "crematie_vanaf" ); ?></div>
+                <div class="heading-prijs-box">Crematie 
+                  vanaf <?php echo get_field( "crematie_vanaf" ); ?></div>
+                  <a href="/meldingsformulier-van-overlijden/"><div class="heading-prijs-box pakket-online-aanvragen">Pakket online aanvragen <i class="fa-solid fa-chevron-right"></i></div></a>
               </div>
             </div>
           </div>

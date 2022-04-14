@@ -46,7 +46,7 @@
 
           <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
              
-          <a href="<?php the_permalink(); ?>" class="pakket"><div>
+          <a href="<?php the_permalink(); ?> ---" class="pakket"><div>
           <div class="box-span">
             <p class="p-pakket">Uitvaartpakket: <span class="pakket-title"><?php echo get_field( "soort_pakket" ); ?></span></p>
               <p class="p-crem">Crematie vanaf: <span><?php echo get_field( "crematie_vanaf" ); ?></span></p>
