@@ -12,7 +12,6 @@
                 <div class="heading-prijs-box">Begrafenis vanaf <?php echo get_field( "begrafenis_vanaf" ); ?></div>
                 <div class="heading-prijs-box">Crematie 
                   vanaf <?php echo get_field( "crematie_vanaf" ); ?></div>
-                  <a href="/meldingsformulier-van-overlijden/"><div class="heading-prijs-box pakket-online-aanvragen">Pakket online aanvragen <i class="fa-solid fa-chevron-right"></i></div></a>
               </div>
             </div>
           </div>
@@ -31,14 +30,23 @@
             } // end while
           } // end if
           ?>
+
+        <button class="btn">Pakket online aanvragen</button>  
+        <p>Is dit toch niet helemaal wat u zoekt? Vraag dan een vrijblijvende kostenopgave aan.</p>
+        <button class="btn">Offerte aanvragen</button>
+        <p>of bel ons geheel vrijblijvend op <a href="tel:+31655143381">0655143381</a></p>
         </div>
-        <div class="box-content">
-          <div class="box-info">
-            <h3>Wilt u meer informatie?</h3>
-            <p>Heeft u een uitvaartpakket gevonden die bij uw wensen past, of zijn er vragen of onduidelijkheden? Neem gerust contact met ons op.</p>
-            <button class="btn">Contact opnemen</button>
+
+        <div class="box-content-flexbox">
+          <div class="box-content">
+            <div class="box-info">
+              <h3>Wilt u meer informatie?</h3>
+              <p>Heeft u een uitvaartpakket gevonden die bij uw wensen past, of zijn er vragen of onduidelijkheden? Neem gerust contact met ons op.</p>
+              <button class="btn">Contact opnemen</button>
+            </div>
           </div>
         </div>
+
       </div>
     </div>
 
