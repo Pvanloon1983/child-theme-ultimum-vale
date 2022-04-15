@@ -37,14 +37,12 @@
         <p>of bel ons geheel vrijblijvend op <a href="tel:+31655143381">0655143381</a></p>
         </div>
 
-        <div class="box-content-flexbox">
           <div class="box-content">
             <div class="box-info">
               <h3>Wilt u meer informatie?</h3>
               <p>Heeft u een uitvaartpakket gevonden die bij uw wensen past, of zijn er vragen of onduidelijkheden? Neem gerust contact met ons op.</p>
               <button class="btn">Contact opnemen</button>
             </div>
-          </div>
         </div>
 
       </div>

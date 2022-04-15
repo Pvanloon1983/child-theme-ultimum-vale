@@ -895,12 +895,6 @@ ul li {
   border: 1px solid var(--secondary-color);
 }
 
-.box-content-flexbox {
-  display: flex;
-  flex-direction: column;
-  width: 30%;
-}
-
 .single-uitvaartpakketten
 .section.begeleid-door .overlay,
 .page-template
