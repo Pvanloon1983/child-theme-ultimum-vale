@@ -1346,7 +1346,10 @@ ul li {
     width: 100%;
   }
 
-  
+  .single-uitvaartpakketten
+  .box-content {
+    display: none;
+  }
 
 }
 
@@ -1611,14 +1614,32 @@ ul li {
   * #.# Single pakket template
   *
   */
+  // .heading-prijs-vanaf {
+  //   width: 100%;
+  // }
+
+  // .heading-prijs-vanaf
+  // .heading-prijs-box {
+  //    width: 100%;
+  //    margin-right: 0;
+  // }
+
   .heading-prijs-vanaf {
-    width: 100%;
+    flex-direction: column;
   }
 
-  .heading-prijs-vanaf
-  .heading-prijs-box {
-     width: 100%;
-     margin-right: 0;
+  .heading-prijs-vanaf 
+  .heading-prijs-box:first-child {
+    margin-bottom: 5px;
+  }
+
+  .heading-prijs-vanaf .heading-prijs-box {
+      background-color: transparent;
+      padding: 0px;
+      margin-right: 0px;
+      margin-top: 0px;
+      border-radius: 0px;
+      border: 0px solid var(--secondary-color);
   }
 
 }

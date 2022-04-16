@@ -11,7 +11,8 @@
               <div class="heading-prijs-vanaf">
                 <div class="heading-prijs-box">Begrafenis vanaf <?php echo get_field( "begrafenis_vanaf" ); ?></div>
                 <div class="heading-prijs-box">Crematie 
-                  vanaf <?php echo get_field( "crematie_vanaf" ); ?></div>
+                  vanaf <?php echo get_field( "crematie_vanaf" ); ?>
+                </div>                
               </div>
             </div>
           </div>
