@@ -1136,7 +1136,7 @@ ul li {
 
 .page-template-page-pakketten
 .section.wat-bieden-wij .overlay {
-  padding: 0px 0 50px 0;
+  padding: 0px 0 35px 0;
   width: 100%;
   height: 100%;
   display: flex;
@@ -1146,7 +1146,7 @@ ul li {
 }
 
 .page-template-page-pakketten
-.section.wat-bieden-wij .container > h3 {
+.section.wat-bieden-wij .container > h2 {
   text-align: center;
   font-size: 30px;
   margin: 0px 10px 30px 10px;
@@ -1156,6 +1156,15 @@ ul li {
 * #.# Overlijdingsformulier pagina
 *
 */
+.nf-field-label label {
+  color: var(--main-color);
+}
+
+.label-right
+.nf-field-label label {
+  font-weight: 500 !important;
+}
+
 .nf-form-fields-required {
   display: none;
 }
@@ -1484,12 +1493,12 @@ select {
     width: 100%;
   }
 
-  .page-template
-  .box-content,
-  .single-uitvaartpakketten
-  .box-content {
-    display: none;
-  }
+  // .page-template
+  // .box-content,
+  // .single-uitvaartpakketten
+  // .box-content {
+  //   display: none;
+  // }
 
   .page-template
   .box-content-pakketten,
@@ -1606,6 +1615,11 @@ select {
   *
   */
   .section.wat-bieden-wij .container > h3 {
+    font-size: 25px;
+  }
+
+  .page-template-page-pakketten 
+  .section.wat-bieden-wij .container > h2 { 
     font-size: 25px;
   }
 
