@@ -318,7 +318,7 @@ body.logged-in > header {
   background-color: #F8F8F8;
 }
 
-.section.pakketten h3 {
+.section.pakketten h2 {
   text-align: center;
   font-size: 30px;
   margin-bottom: 30px;
@@ -779,6 +779,10 @@ h3 {
 * #.# Page template styling
 *
 */
+.box-info h2 {
+  font-size: 20px;
+}
+
 .single-uitvaartpakketten
 .main-content,
 .page-template
@@ -893,13 +897,14 @@ ul li {
   height: fit-content;
   width: 30%;
   border: 1px solid var(--secondary-color);
+  margin-bottom: 47px;
 }
 
 .single-uitvaartpakketten
 .section.begeleid-door .overlay,
 .page-template
 .section.begeleid-door .overlay {
-  padding: 22px 0 23px 0;
+  padding: 34px 0 23px 0;
   width: 100%;
   height: 100%;
   display: flex;
@@ -1103,6 +1108,139 @@ ul li {
 .heading-prijs-vanaf
 .pakket-online-aanvragen:hover {
   box-shadow: rgb(163, 163, 163, 0.2) 0px 2px 8px 0px;
+}
+
+/* 
+* #.# Pakketten pagina
+*
+*/
+.page-template 
+.header-hero 
+.block-1 
+.page-p-different-header {
+  margin-bottom: 0;
+  font-size: 20px;
+  width: 100%;
+}
+
+.page-template-page-pakketten
+.section.pakketten {
+  padding: 35px 0 25px 0;
+  background-color: #F8F8F8;
+}
+
+.page-template-page-pakketten
+.section.section.wat-bieden-wij {
+  background-color: #F8F8F8;
+}
+
+.page-template-page-pakketten
+.section.wat-bieden-wij .overlay {
+  padding: 0px 0 50px 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: none;
+}
+
+.page-template-page-pakketten
+.section.wat-bieden-wij .container > h3 {
+  text-align: center;
+  font-size: 30px;
+  margin: 0px 10px 30px 10px;
+}
+
+/*
+* #.# Overlijdingsformulier pagina
+*
+*/
+.nf-form-fields-required {
+  display: none;
+}
+
+.html-container {
+  margin-bottom: 0px !important;
+}
+
+.verplichte-velden {
+  margin-bottom: 20px;
+}
+
+#nf-field-5-container {
+  padding-top: 15px;
+}
+
+#nf-field-44-container p {
+  margin-top: -15px;
+}
+
+.nf-form-content button, .nf-form-content input[type=button], .nf-form-content input[type=submit] {
+  border: none;
+  padding: 11px 35px !important;
+  cursor: pointer;
+  background-color: var(--main-color) !important;
+  color: #fff;
+  box-shadow: 0 3px 0 0 #c7b3ab;
+  border-radius: 6px;
+  transition: all .5s;
+  font-family: var(--global-font) !important;
+  font-size: 18px !important;
+  height: 44px !important;
+  margin-top: 0px !important;
+}
+
+input[type=text],
+input[type=number],
+input[type=email],
+textarea {
+  background-color: #fff !important;
+  border: 1px solid var(--secondary-color) !important;
+  border-radius: 6px !important;
+}
+
+label::after {
+  background: #fff !important;
+  border: 1px solid var(--secondary-color) !important;
+}
+
+// .listradio-wrap .nf-field-element label.nf-checked-label::before {
+//   background: var(--main-color) !important;
+//   top: 0;
+// }
+
+// .listradio-wrap .nf-field-element label.nf-checked-label::after {
+//   top: 0;
+// }
+
+
+.listradio-wrap .nf-field-element label:after {
+font-size: 0em !important;
+}
+
+#nf-field-40-container .listradio-wrap .nf-field-element label:after,
+#nf-field-41-container .listradio-wrap .nf-field-element label:after {
+  font-size: 1em !important;
+}
+
+.checkbox-wrap .nf-field-element label.nf-checked-label:before, .checkbox-wrap .nf-field-label label.nf-checked-label:before, .listcheckbox-wrap .nf-field-element label.nf-checked-label:before, .listcheckbox-wrap .nf-field-label label.nf-checked-label:before {
+  color: var(--main-color) !important;
+}
+
+.nf-error.field-wrap .nf-field-element:after {
+  display: none !important;
+}
+
+select {
+  border: 1px solid var(--secondary-color) !important;
+  border-radius: 6px !important;
+}
+
+.nf-error-msg.nf-error-field-errors {
+  padding: 5px;
+  padding-bottom: 20px;
+  margin-top: -10px;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -1346,9 +1484,18 @@ ul li {
     width: 100%;
   }
 
+  .page-template
+  .box-content,
   .single-uitvaartpakketten
   .box-content {
     display: none;
+  }
+
+  .page-template
+  .box-content-pakketten,
+  .page-template
+  .box-content-small-pakketten {
+    display: block;
   }
 
 }
@@ -1418,7 +1565,7 @@ ul li {
     padding: 40px 0;
   }
 
-  .section.pakketten h3 {
+  .section.pakketten h2 {
     font-size: 25px;
   }
 
@@ -1640,6 +1787,17 @@ ul li {
       margin-top: 0px;
       border-radius: 0px;
       border: 0px solid var(--secondary-color);
+  }
+
+  /*
+  * #.# Pakketten pagina
+  *
+  */
+  .page-template-page-pakketten
+  .section.wat-bieden-wij .container > h3 {
+    text-align: center;
+    font-size: 25px;
+    margin: 0px 10px 30px 10px;
   }
 
 }
