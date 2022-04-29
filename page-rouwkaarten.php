@@ -28,7 +28,7 @@
 
       <?php
       $args = array(
-          'post_type' => 'onze_rouwkaarten',
+          'post_type' => 'rouwkaarten_uv',
           'posts_per_page' => 100
       );
       $the_query = new WP_Query( $args ); 
