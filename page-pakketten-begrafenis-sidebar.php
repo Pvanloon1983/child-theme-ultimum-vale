@@ -3,6 +3,7 @@
  * Template Name: Begrafenis pakketten Sidebar
  *
  */
+
 ?>
 
 <main class="main-content">
@@ -68,7 +69,7 @@
 
           <?php wp_reset_postdata(); ?>
 
-      <?php endif; ?>
+        <?php endif; ?>
     
     </div>
 

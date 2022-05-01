@@ -1535,6 +1535,106 @@ select {
   flex: auto;
 }
 
+/* 
+* Site reviews pagina
+*
+*/
+.paginatie
+.page-numbers {
+  margin-right: 10px;
+}
+
+.paginatie
+.current {
+  font-weight: 700;
+}
+
+.paginatie {
+  font-size: 20px;
+  font-weight: 400 !important;
+  margin-bottom: 30px;
+}
+
+.paginatie a {
+  text-decoration: none !important;
+  font-weight: 400 !important;
+}
+
+.review-naam {
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+
+span.fa.fa-star.checked {
+  color: #FFB900 !important;
+}
+
+.review-datum {
+  margin-left: 10px;
+}
+
+.page-template-page-site_reviews
+.nf-form-content {
+  padding: 0;
+}
+
+.waarderings-box {
+  font-size: 20px;
+  border: 1px solid var(--secondary-color);
+  border-radius: 6px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.waarderings-box
+.fa {
+  font-size: 18px !important;
+  color: #FFB900 !important;
+}
+
+.waarderings-box .row {
+  padding: 12px 20px;
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+
+.waarderings-box
+.text-align {
+  text-align: right;
+}
+
+.waarderings-box
+.review-box-text {
+  margin-bottom: 0;
+} 
+
+.waarderings-box
+.big-number {
+  font-size: 24px;
+}
+
+.waarderings-box
+.row-border-bottom {
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+.star-box-with-number {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*
+* #.# Ninja forms button
+*
+*/
+
+.nf-form-content button:hover, .nf-form-content input[type=button]:hover, .nf-form-content input[type=submit]:hover {
+  background: var(--main-color) !important;
+  color: #fff !important;
+  transition: all 0s !important;
+}
+
 @media only screen and (max-width: 1024px) {
 
   /*
@@ -2208,6 +2308,41 @@ select {
     display: grid;
     grid-template-columns: auto;
   }
+
+  /*
+  * #.# Site reviews pagina
+  *
+  */
+  .paginatie {
+    font-size: 18px;
+  }
+
+  /*
+  * #.# Review pagina
+  *
+  */
+  .waarderings-box {
+    font-size: 18px !important;
+  }
+
+  .waarderings-box .row {
+    padding: 12px 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+  }
+
+  .row-samenvatting {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .row-samenvatting
+  .star-box-with-number {
+    display: block;
+    width: 100%;
+  }
+  
 
 }
 
