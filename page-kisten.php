@@ -32,13 +32,13 @@
           'posts_per_page' => 100
       );
       $the_query = new WP_Query( $args ); 
-      
-      ?>
+
+      ?>      
 
       <?php if ( $the_query->have_posts() ) : ?>
 
           <?php while ( $the_query->have_posts() ) : $the_query->the_post(); 
-          
+
           $featured_image = wp_get_attachment_image_src(get_post_thumbnail_id(), 'large' );
           
           ?>  
@@ -64,22 +64,23 @@
   </section>
   <!-- End section pakketten -->
 
+  <?php $watBiedenWij = get_field('wat_bieden_wij', 'option'); ?>
   <section class="section wat-bieden-wij">
     <div class="overlay">
       <div class="container">
         <h2>Wat wij nog meer bieden</h2>
         <div class="flex-box">  
           <div class="box">
-            <img src="<?php echo get_field('aanbod_rouwkaarten_afbeelding', 'option'); ?>" alt="">
-            <h3><?php echo get_field('aanbod_rouwkaarten_titel', 'option'); ?></h3>
-            <p><?php echo get_field('aanbod_rouwkaarten_uitleg', 'option'); ?></p>
-            <a class="btn-link" href="/rouwkaarten/"><button class="btn"><?php echo get_field('aanbod_rouwkaarten_knop', 'option'); ?></button></a>
+            <img src="<?php echo $watBiedenWij['aanbod_rouwkaarten_afbeelding']; ?>" alt="">
+            <h3><?php echo $watBiedenWij['aanbod_rouwkaarten_titel']; ?></h3>
+            <p><?php echo $watBiedenWij['aanbod_rouwkaarten_uitleg']; ?></p>
+            <a class="btn-link" href="#"><button class="btn"><?php echo $watBiedenWij['aanbod_rouwkaarten_knop']; ?></button></a>
           </div>
           <div class="box">
-            <img src="<?php echo get_field('online_condoleance_afbeelding', 'option'); ?>" alt="">
-            <h3><?php echo get_field('online_condoleance_titel', 'option'); ?></h3>
-            <p><?php echo get_field('online_condoleance_uitleg', 'option'); ?></p>
-            <a class="btn-link" href="#"><button class="btn"><?php echo get_field('online_condoleance_knop', 'option'); ?></button></a>
+            <img src="<?php echo $watBiedenWij['online_condoleance_afbeelding']; ?>" alt="">
+            <h3><?php echo $watBiedenWij['online_condoleance_titel']; ?></h3>
+            <p><?php echo $watBiedenWij['online_condoleance_uitleg']; ?></p>
+            <a class="btn-link" href="#"><button class="btn"><?php echo $watBiedenWij['online_condoleance_knop']; ?></button></a>
           </div>
         </div> 
       </div>

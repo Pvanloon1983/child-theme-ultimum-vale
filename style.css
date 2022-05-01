@@ -1268,10 +1268,6 @@ select {
   min-width: 250px;
 }
 
-.rouwkaart:last-child {
-  max-width: 48.2%;
-}
-
 .rouwkaart
 .rouwkaart-button {
   margin-top: 5px;
@@ -1324,6 +1320,13 @@ select {
   max-width: none;
 }
 
+.page-template-page-rouwkaarten
+.rouwkaarten
+.flex-box {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
 /*
 * #.# Single rouwkaarten pagina
 *
@@ -1349,6 +1352,11 @@ select {
 }
 
 .single
+.rouwkaart-box a {
+  font-weight: 400;
+}
+
+.single
 .rouwkaart-box p {
   margin: 0;
   margin-left: 10px;
@@ -1362,7 +1370,7 @@ select {
 .single
 .rouwkaart-box img {
   box-shadow: rgb(163 163 163 / 20%) 0px 2px 8px 0px;
-  margin-bottom: 35px;
+  margin-bottom: 15px;
   width: 100%;
   max-width: 250px;
 }
@@ -1407,16 +1415,20 @@ select {
 *
 */
 .page-template-page-kisten
+.kisten
+.flex-box {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.page-template-page-kisten
 .kisten {
   padding: 35px 0 27px 0 !important;
 }
 
+.page-template-page-kisten
 .kist {
-  min-width: 250px;
-}
-
-.kist:last-child {
-  max-width: 48.2%;
+  padding: 20px 30px 21px 30px !important;
 }
 
 .kist
@@ -1469,6 +1481,58 @@ select {
 .page-template-page-kisten
 .section.wat-bieden-wij .box img {
   max-width: none;
+}
+
+/*
+* Single kisten pagina
+*
+*/
+.slider {
+  display: grid;
+  grid-template-columns: auto;
+  margin-top: 21px;
+}
+
+.slider
+.slider-outer-image {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--secondary-color);
+  padding: 20px;
+  margin: 10px;
+  border-radius: 6px;
+}
+
+.slider
+.slider-outer-image img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.navigtion-kisten {
+  display: flex;
+  margin: 0 10px;
+  margin-bottom: 30px;
+}
+
+.navigtion-kisten a {
+  text-decoration: none !important;
+  font-weight: 400 !important;
+}
+
+.navigtion-kisten
+.left {
+  text-align: right;
+  float: right;
+  flex: auto;
+}
+
+.navigtion-kisten
+.right {
+  text-align: left;
+  flex: auto;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -1726,6 +1790,42 @@ select {
     display: block;
   }
 
+  /*
+  * #.# Rouwkaarten pagina
+  *
+  */
+  .page-template-page-rouwkaarten
+  .rouwkaarten
+  .flex-box {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+
+  /*
+  * Kisten pagina
+  *
+  */
+  .page-template-page-kisten
+  .kisten
+  .flex-box {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+
+  /*
+  * #.# Single kist pagina
+  *
+  */
+  .slider
+  .slider-outer-image {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -1760,6 +1860,8 @@ select {
     margin-left: auto;
     margin-right: auto;
   }
+
+
 
 }
 
@@ -2034,6 +2136,24 @@ select {
   }
 
   /*
+  * #.# Rouwkaarten pagina
+  *
+  */
+  .page-template-page-rouwkaarten
+  .rouwkaarten
+  .flex-box {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .page-template-page-rouwkaarten
+  .rouwkaarten
+  .flex-box
+  .rouwkaart-button {
+    font-size: 18px;
+  }
+
+  /*
   * #.# Single rouwkaarten pagina
   *
   */
@@ -2076,6 +2196,17 @@ select {
   .su-spoiler-content {
     line-height: 1.8 !important;
     font-size: 18px !important;
+  }
+
+  /*
+  * Kisten pagina
+  *
+  */
+  .page-template-page-kisten
+  .kisten
+  .flex-box {
+    display: grid;
+    grid-template-columns: auto;
   }
 
 }
