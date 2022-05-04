@@ -43,13 +43,15 @@
           
           ?>  
                 
-            <a href="<?php the_permalink(); ?>" class="pakket kist"><div>
+            <a href="<?php the_permalink(); ?>" class="pakket kist">
             <img style="width: 100%;" src="<?php echo $featured_image[0]; ?>" alt="<?php echo $featured_image['alt']; ?>">
-            <p class="kist-title">Model: <?php the_title(); ?></p>
-            <button class="pakket-button kist-button">
-              Bekijk kist
-            </button>
-            </div></a>
+            <div class="kisten-title-bekijken">
+              <div class="kist-title">Model: <?php the_title(); ?></div>
+              <div class="bekijk-kist">
+                Bekijk kist
+              </div>
+            </div>
+            </a>
 
           <?php endwhile; ?>
 

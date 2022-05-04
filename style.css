@@ -1429,22 +1429,45 @@ select {
 .page-template-page-kisten
 .kist {
   padding: 20px 30px 21px 30px !important;
+  display: flex;
+  flex-direction: column;
 }
 
 .kist
-.kist-button {
-  margin-top: 5px;
-  border: none;
-  padding: 5px 0px 0px 0px !important;
-  cursor: pointer;
-  width: 145px;
-  background-color: transparent !important;
-  color: #fff;
-  box-shadow: none !important;
-  border-radius: 6px;
+.bekijk-kist{
   color: var(--main-color) !important;
   text-decoration: underline;
   font-size: 20px;
+  flex: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-basis: auto;
+  margin-top: 5px;
+}
+
+.kist
+.kist-title {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-basis: auto;
+  margin-top: 5px;
+}
+
+.kist
+.kisten-title-bekijken {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-basis: auto;
+  flex-direction: column;
+}
+
+.kist img {
+  margin-bottom: 10px;
 }
 
 .kist-title,
@@ -1454,6 +1477,7 @@ select {
   font-size: 15px;
   color: var(--main-color);
 }
+
 
 .page-template-page-kisten
 .section.section.wat-bieden-wij {
@@ -1633,6 +1657,180 @@ span.fa.fa-star.checked {
   background: var(--main-color) !important;
   color: #fff !important;
   transition: all 0s !important;
+}
+
+/*
+* #.# Condoleance register
+*
+*/
+.empriva-condoleance-overview-wrapper {
+  padding-top: 30px;
+}
+
+.empriva-condoleance-overview-item:hover {
+  background: transparent;
+}
+
+.empriva-condoleance-overview-item:hover {
+  color: #FFF;
+  border-color: lightgrey;
+}
+
+#empriva-condoleance-single-action-container {
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+.empriva-profile-wrapper {
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+#empriva-condoleance-leave-message-container {
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+}
+
+.empriva-form-item input {
+  width: 100%;
+  border: none;
+  color: var(--text-color) !important;
+  font-size: 1rem;
+  font-family: inherit;
+  height: 50px;
+}
+
+.empriva-form-row label {
+  font-weight: bold;
+  color: var(--main-color);
+}
+
+.empriva-form-item input:focus-visible {
+  outline: none;
+}
+
+.empriva-form-item select {
+  height: 50px;
+  color: var(--text-color) !important;
+}
+
+.empriva-form-item select:focus-visible {
+  outline: none;
+}
+
+.empriva-form-item textarea {
+  padding: 8px;
+  color: var(--text-color) !important;
+  max-width: 100%;
+}
+
+.empriva-form-item textarea:focus-visible {
+  outline: none;
+}
+
+.empriva-button-bar {
+  display: inline-flex;
+  margin-bottom: 15px;
+}
+
+.empriva-button-bar button[type="submit"] {
+  border: none;
+  padding: 11px 11px;
+  cursor: pointer;
+  background-color: var(--main-color);
+  color: #fff;
+  box-shadow: 0 3px 0 0 #c7b3ab;
+  border-radius: 6px;
+  font-size: inherit;
+}
+
+.empriva-button-bar svg {
+  display: none;
+}
+
+.empriva-button-bar button[type="submit"]:hover {
+  background-color: var(--main-color);
+}
+
+.empriva-profile-info-wrapper h1 {
+  font-size: 22px;
+  margin-top: 0;
+}
+
+.empriva-form-wrapper h2 {
+  font-size: 22px;
+}
+
+/*
+* #.# Eigen condoleances pagina
+*
+*/
+.page-template-page-condoleance-register 
+.flex-grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.condoleance-item-foto-container {
+  margin-bottom: 1rem;
+  position: relative;
+  line-height: 0;
+  position: relative;
+  padding-top: 100%;
+  min-height: 1px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page-template-page-condoleance-register 
+.flex-grid-container 
+.condoleance-item {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 2.2rem;
+  position: relative;
+  color: inherit;
+  text-decoration: inherit;
+  border-bottom: solid 2px lightgray;
+  padding-bottom: 1.5rem;
+}
+
+
+.page-template-page-condoleance-register 
+.text-content {
+  margin-top: 10px !important;
+}
+
+.condoleance-item-naam {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+
+.condoleance-overlijden-datum {
+  text-align: center;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-basis: auto;
+  margin-top: 8px;
+}
+
+.page-template-page-condoleance-register 
+.condoleance-overlijden-datum 
+i.fa-solid.fa-cross {
+  margin-right: 5px;
+  font-size: 16px;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -1924,6 +2122,16 @@ span.fa.fa-star.checked {
     margin-right: 0px;
   }
 
+  /*
+  * #.# Condoleance register pagina
+  *
+  */
+  .page-template-page-condoleance-register 
+  .flex-grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
 
 
 }
@@ -1959,6 +2167,15 @@ span.fa.fa-star.checked {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+
+  /*
+  * #.# Condoleance detail pagina
+  *
+  */
+  .empriva-button-bar button[type="submit"] {
+    margin-top: -20px;
   }
 
 
@@ -2342,7 +2559,16 @@ span.fa.fa-star.checked {
     display: block;
     width: 100%;
   }
-  
+
+  /*
+  * #.# Condoleance register pagina
+  *
+  */
+  .page-template-page-condoleance-register 
+  .flex-grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 
 }
 
@@ -2437,6 +2663,16 @@ span.fa.fa-star.checked {
 
   .footer .widget {
     margin: 0 0px;
+  }
+
+  /*
+  * #.# Condoleance register pagina
+  *
+  */
+  .page-template-page-condoleance-register 
+  .flex-grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
 }
