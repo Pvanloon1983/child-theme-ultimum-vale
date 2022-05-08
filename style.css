@@ -1833,6 +1833,71 @@ i.fa-solid.fa-cross {
   font-size: 16px;
 }
 
+/*
+* #.# Single condoleance pagina
+*
+*/
+.single-cond-box-top {
+  display: flex;
+  margin-top: 30px;
+  height: auto;
+}
+
+.image-overledene img {
+  width: 175px;
+  margin-right: 20px;
+}
+
+.single-cond-box-top
+.datum-overledene {
+  font-size: 18px;
+}
+
+.single-cond-box-top
+.datum-overledene
+.fa-solid {
+  font-size: 16px !important;
+}
+
+.condoleance-action {
+  border-top: 2px solid var(--main-color);
+  border-bottom: 2px solid var(--main-color);
+  margin-top: 30px;
+  margin-bottom: 23px;
+  padding: 15px 0 17px 0;
+}
+
+.nf-form-content  {
+  padding: 0 !important;
+}
+
+.nf-form-cont {
+  margin-left: -5px;
+}
+
+.nf-form-content .listselect-wrap .nf-field-element div, .nf-form-content input.ninja-forms-field, .nf-form-content select.ninja-forms-field:not([multiple]) {
+    height: 50px;
+    border-radius: 6px !important;
+    cursor: pointer;
+}
+
+.nf-form-content .list-select-wrap .nf-field-element>div, .nf-form-content input:not([type=button]), .nf-form-content textarea {
+  background: #fff !important;
+}
+
+.list-select-wrap div:after {
+  color: var(--main-color);
+}
+
+.nf-form-content .list-select-wrap>div div:after {
+  font-size: 15px !important;
+}
+
+textarea {
+  font-family: var(--global-font) !important;
+  font-size: 18px !important;
+}
+
 @media only screen and (max-width: 1024px) {
 
   /*
@@ -2133,7 +2198,6 @@ i.fa-solid.fa-cross {
   }
 
 
-
 }
 
 @media only screen and (max-width: 768px) {
@@ -2177,6 +2241,7 @@ i.fa-solid.fa-cross {
   .empriva-button-bar button[type="submit"] {
     margin-top: -20px;
   }
+
 
 
 
@@ -2568,6 +2633,39 @@ i.fa-solid.fa-cross {
   .flex-grid-container {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  /*
+  * #.# Single condoleance pagina
+  *
+  */
+  .single-cond-box-top {
+    display: flex;
+    margin-top: 30px;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .image-overledene img {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+
+  .condoleance-action {
+    margin-top: 10px;
+  }
+
+  .nf-form-content  {
+    padding: 0 !important;
+  }
+
+  .nf-cell {
+    padding: 0 !important;
+  }
+
+  .nf-form-cont {
+    margin-left: 0px;
   }
 
 }
