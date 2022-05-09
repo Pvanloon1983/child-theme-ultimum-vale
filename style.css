@@ -33,6 +33,10 @@ Updated: 2022-03-08 17:13:41
   -webkit-tap-highlight-color: transparent;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 
 .main-content {
   padding-top: 157px !important;
@@ -62,6 +66,31 @@ p {
 .main-content {
   margin-top: 0px;
 }
+
+#scroll-to-top-button {
+  border-radius: 50%;
+  border: none;
+  background-color: var(--main-color);
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  transition: all 0.3s;
+  opacity: 0;
+  visibility: hidden;
+  cursor: pointer;
+}
+
+#scroll-to-top-button 
+i.fa-solid.fa-angles-up {
+  padding: 7px 5px;
+  color: #fff;
+}
+
+/*
+* #.# Ninja forms spinner on processing
+*
+*/
+
 
 
 /*
@@ -1898,6 +1927,41 @@ textarea {
   font-size: 18px !important;
 }
 
+.condoleance-berichten-box {
+  background-color: #f9f9f9;
+  margin-bottom: 15px;
+  padding: 10px 20px 15px 20px;
+  border-radius: 6px;
+}
+
+.condoleance-berichten-box:first-child {
+  margin-top: 10px;
+}
+
+.condoleance-berichten-box:last-child {
+  margin-bottom: 25px;
+}
+
+.condoleance-berichten-box p {
+  margin: 0;
+}
+
+.condoleance-berichten-box
+.aanhef-naam {
+  margin-bottom: 4px;
+  font-weight: 600;
+  color: var(--main-color);
+}
+
+.condoleance-berichten-box
+.datum-inzending {
+  margin-top: 3px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #4f4f4f8c;
+}
+
+
 @media only screen and (max-width: 1024px) {
 
   /*
@@ -2666,6 +2730,24 @@ textarea {
 
   .nf-form-cont {
     margin-left: 0px;
+  }
+
+  .condoleance-berichten-box
+  .datum-inzending {
+    margin-top: 3px;
+    font-weight: 500;
+    font-size: 15px !important;
+    color: #4f4f4f8c;
+  }
+
+  .condoleance-berichten-box
+  .aanhef-naam {
+    margin-top: 0 !important;
+  }
+
+  .condoleance-berichten-box {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
 }

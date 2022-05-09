@@ -49,6 +49,28 @@
 
         <?php Ninja_Forms()->display( 4 ); ?>
 
+        <div class="condoleance-berichten">
+            <?php 
+            if( have_rows('gegegevens_inzender') ):
+                while ( have_rows('gegegevens_inzender') ) : the_row();
+                    $aanhef = get_sub_field('aanhef');
+                    $naam = get_sub_field('naam');
+                    $bericht = get_sub_field('condoleance_bericht');
+                    $datum = get_sub_field('datum_inzending'); ?>
+
+                    <div class="condoleance-berichten-box">
+                      <p class="aanhef-naam"><?php echo $aanhef . " " . $naam; ?></p>
+                      <p class="condoleance-bericht"><?php echo $bericht; ?></p>
+                      <p class="datum-inzending"><?php echo $datum; ?></p>
+                    </div>
+
+                <?php endwhile;
+            else :
+                // no rows found
+            endif;        
+            ?>
+        </div>
+
       </div>
       <div class="box-content">
         <div class="box-info">
