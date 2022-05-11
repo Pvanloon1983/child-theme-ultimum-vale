@@ -50,13 +50,9 @@
             ?>
           </div>
       </div>
-      <div class="box-content">
-        <div class="box-info">
-          <h2>Wilt u meer informatie?</h2>
-          <p>Heeft u een uitvaartpakket gevonden die bij uw wensen past, of zijn er vragen of onduidelijkheden? Neem gerust contact met ons op.</p>
-          <button class="btn">Contact opnemen</button>
-        </div>
-      </div>
+      <!-- Side bar info box -->	
+      <?php get_template_part('template-parts/side-bar-info-box'); ?>
+      <!-- Einde side bar info box -->
     </div>
   </div>
 

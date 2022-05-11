@@ -19,6 +19,7 @@ if( function_exists('acf_add_options_page') ) {
     acf_add_options_page();
 
     acf_add_options_sub_page('Home Page & wat bieden wij sectie');
+    acf_add_options_sub_page('Sidebar Info Box template');
     acf_add_options_sub_page('Footer');
 	
 	
