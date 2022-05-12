@@ -13,7 +13,7 @@
         <div class="header-hero-inside-container">
           <div class="header-hero-block block-1">
             <h1><?php the_title(); ?></h1>
-            <p class="page-p-different-header">Wij hebben ervoor gekozen om vijf duidelijke pakketten te maken met verschillende prijzen. Wij denken dat wij daardoor de nabestaanden rust kunnen bieden, terwijl zij de juiste begeleiding krijgen van ons in de dagen voordat de uitvaart gaat plaatsvinden.</p>
+            <p class="page-p-different-header"><?php echo get_field('uitvaartpakketten_pagina_header_tekst', 'option'); ?></p>
           </div>
         </div>
       </div>

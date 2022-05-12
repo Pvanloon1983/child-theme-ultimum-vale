@@ -176,8 +176,8 @@ if ( class_exists( 'WooCommerce' ) ) { ?>
     </div> -->
 
     <div class="button-container">
-        <a href="tel:31655143381"><button class="btn btn-1"><b>24/7 bereikbaar via:</b><br><i class="fa-solid fa-phone"></i> 06-55143381</button></a>
-        <a href="<?php echo get_permalink(27) ?>"><button class="btn btn-2">Overlijden melden</button></a>
+        <a href="tel:<?php echo get_field('topbar__telefoonnummer_link', 'option'); ?>"><button class="btn btn-1"><b><?php echo get_field('topbar_telefoonnummer_tekst', 'option'); ?></b><br><i class="fa-solid fa-phone"></i> <?php echo get_field('topbar_telefoonnummer', 'option'); ?></button></a>
+        <a href="<?php echo get_field('topbar_overlijden_melden_knop_link', 'option'); ?>"><button class="btn btn-2"><?php echo get_field('topbar_overlijden_melden_knop_tekst', 'option'); ?></button></a>
     </div>
 
   </div>

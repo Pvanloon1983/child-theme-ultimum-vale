@@ -31,13 +31,24 @@
       <?php endif; ?>
 
       <?php if ( is_active_sidebar( 'footer-widget-four' ) ) : ?>
-        <div class="box"><?php dynamic_sidebar( 'footer-widget-four' ); ?></div>
+        <div class="box"><?php dynamic_sidebar( 'footer-widget-four' ); ?>
+        <aside class="widget widget-text social-box-footer">
+          <span>
+            <i class="fa-brands fa-facebook"></i>
+            <span class="volg-ons"><a target="_blank" href="https://www.facebook.com/pages/category/Funeral-Service---Cemetery/Uitvaartverzorging-Ultimum-Vale-BV-107220994216523/">Volg ons <i class="fa-solid fa-arrow-right"></i></a></sp>
+          </span>
+        </aside>
+        </div>
       <?php endif; ?>
 
   </div>
 </footer>
 <div class="copyright">
-    <p>&copy; <?php echo date('Y'); ?> by CMS Webdesign</p>
+    <div class="container">
+      <div class="copyright-box">
+        <p>Copyright &copy; <?php echo date('Y'); ?><br> Uitvaartverzorging Ultimum Vale <br> <a href="<?php echo get_field('link_document_algemene_voorwaarden', 'option'); ?>">Algemene voorwaarden</a> | <a href="<?php echo get_field('link_privacybeleid', 'option'); ?>">Privacybeleid</a></p>
+      </div>
+    </div>
 </div>
 
 <?php wp_footer(); ?>
