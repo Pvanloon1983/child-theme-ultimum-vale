@@ -26,10 +26,20 @@
                 margin-top: 90px !important;
               }
 
+              @media only screen and (max-width: 782px) {
+                body.logged-in > header {
+                    margin-top: 103px !important;
+                } 
+                
+                body.logged-in > .top-bar {
+                    margin-top: 43px !important;
+                }
+              }
+
               @media only screen and (max-width: 440px) {
                 body.logged-in > header {
-                margin-top: 165px !important;
-                }              
+                    margin-top: 107px !important;
+                }            
               }
             </style>
         <?php } ?>

@@ -12,7 +12,7 @@
       <div class="container">
         <div class="header-hero-inside-container">
           <div class="header-hero-block block-1">
-            <h1><?php the_title(); ?></h1>
+          <?php echo get_template_part('template-parts/alternative_title'); ?>
           </div>
         </div>
       </div>
@@ -43,7 +43,7 @@
           
           ?>  
                 
-            <a href="<?php the_permalink(); ?>" class="pakket kist">
+            <a href="<?php the_permalink(); ?>" class="pakket kist">            
             <img style="width: 100%;" src="<?php echo $featured_image[0]; ?>" alt="<?php echo $featured_image['alt']; ?>">
             <div class="kisten-title-bekijken">
               <div class="kist-title">Model: <?php the_title(); ?></div>

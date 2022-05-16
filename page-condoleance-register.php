@@ -12,7 +12,7 @@
       <div class="container">
         <div class="header-hero-inside-container">
           <div class="header-hero-block block-1">
-            <h1><?php the_title(); ?></h1>
+          <?php echo get_template_part('template-parts/alternative_title'); ?>
           </div>
         </div>
       </div>
@@ -37,8 +37,9 @@
         <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>  
 
           <a href="<?php the_permalink(); ?>" class="condoleance-item">
+            <?php $image = get_field('foto_overledene'); ?>
             <div class="condoleance-item-foto-container" 
-              style="background-image: url('<?php echo get_field('foto_overledene'); ?>');">
+              style="background-image: url('<?php echo esc_url($image['url']); ?>');">
             </div>
             <div class="condoleance-item-naam">
               <?php the_title(); ?>

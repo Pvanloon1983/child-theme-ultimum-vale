@@ -18,10 +18,13 @@ if( function_exists('acf_add_options_page') ) {
 
     acf_add_options_page();
 
+    acf_add_options_sub_page('Algemene velden');
     acf_add_options_sub_page('Top bar');
     acf_add_options_sub_page('Home Page & wat bieden wij sectie');
     acf_add_options_sub_page('Uitvaartpakketten pagina');
+    acf_add_options_sub_page('Uitvaartpakket pagina');
     acf_add_options_sub_page('Sidebar Info Box template');
+    acf_add_options_sub_page('Site reviews pagina');
     acf_add_options_sub_page('Footer');
 	
 	
@@ -38,10 +41,3 @@ function cmswebdesign_hide_sitereviews_singular() {
   }
 }
 add_action( 'template_redirect', 'cmswebdesign_hide_sitereviews_singular' );
-
-
-/*
-* Customizer
-*
-*/
-

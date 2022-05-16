@@ -14,7 +14,7 @@ get_header();
       <div class="container">
         <div class="header-hero-inside-container">
           <div class="header-hero-block block-1">
-            <h1><?php the_title(); ?></h1>
+          <?php echo get_template_part('template-parts/alternative_title'); ?>
           </div>
         </div>
       </div>
@@ -27,7 +27,7 @@ get_header();
 
       <div class="waarderings-box">
         <div class="row row-border-bottom">
-          <div><span>Begrafenis</span></div>
+          <div><span><?php echo get_field('eerste_regel', 'option'); ?></span></div>
           <div class="text-align">
             <span class="fa fa-star"></span>
             <span class="fa fa-star"></span>
@@ -37,7 +37,7 @@ get_header();
           </div>
         </div>
         <div class="row row-border-bottom">
-          <div><span>Crematie</sp></div>
+          <div><span><?php echo get_field('tweede_regel', 'option'); ?></sp></div>
           <div class="text-align">
             <span class="fa fa-star"></span>
             <span class="fa fa-star"></span>
@@ -47,7 +47,7 @@ get_header();
           </div>
         </div>
         <div class="row row-border-bottom">
-          <div><span>Respectvol en deskundig</sp></div>
+          <div><span><?php echo get_field('derde_regel', 'option'); ?></sp></div>
           <div class="text-align">
             <span class="fa fa-star"></span>
             <span class="fa fa-star"></span>
@@ -59,7 +59,7 @@ get_header();
         <div class="row row-samenvatting">
           <div>
             <span><strong>Samenvatting</strong></span>
-            <p class="review-box-text">Uitvaartverzorging Ultimum Vale wil er zijn voor iedereen. Ongeacht waar de persoon verzekerd is, en of er veel of weinig te besteden is. De sterren aan de zijkant zijn het gemiddelde van de recensies van onze klanten. Lees in onderstaande reacties de beoordelingen van Uitvaartverzorging Ultimum Vale. Ons team van gecertificeerde uitvaartverzorgers staan voor u door heel Nederland 24/7 voor u klaar.</p>
+            <p class="review-box-text"><?php echo get_field('box_tekst', 'option'); ?></p>
           </div>
           <div class="star-box-with-number text-align">
             <span class="big-number"><strong>5</strong></span>

@@ -27,7 +27,7 @@
             <img src="<?php echo $featured_image[0]; ?>" alt="<?php echo $featured_image['alt']; ?>">
             <div class="text-rouwkaarten-single">
               <p>Download hier het bestelformulier voor de rouwkaarten:</p>
-              <a href="#"><p>Klik hier om het downloaden</p></a>
+              <a href="<?php echo get_field('link_bestelformulier_rouwkaarten', 'option'); ?>"><p>Klik hier om het downloaden</p></a>
             </div>
           <?php } // end while
         } // end if

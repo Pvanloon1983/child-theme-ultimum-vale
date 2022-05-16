@@ -12,7 +12,7 @@
       <div class="container">
         <div class="header-hero-inside-container">
           <div class="header-hero-block block-1">
-            <h1>Album met <?php the_title(); ?></h1>
+           <?php echo get_template_part('template-parts/alternative_title'); ?>
           </div>
         </div>
       </div>

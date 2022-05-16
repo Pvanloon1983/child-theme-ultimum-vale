@@ -32,10 +32,14 @@
           } // end if
           ?>
 
-        <button class="btn">Pakket online aanvragen</button>  
+        <a style="text-decoration: none;" href="<?php echo get_field('pakket_online_aanvragen_knop_link', 'option'); ?>">
+          <button class="btn"><?php echo get_field('pakket_online_aanvragen_knop_tekst', 'option'); ?></button>  
+        </a>
         <p>Is dit toch niet helemaal wat u zoekt? Vraag dan een vrijblijvende kostenopgave aan.</p>
-        <button class="btn">Offerte aanvragen</button>
-        <p>of bel ons geheel vrijblijvend op <a href="tel:+31655143381">0655143381</a></p>
+        <a style="text-decoration: none;" href="<?php echo get_field('offerte_aanvragen_knop_link', 'option'); ?>">
+          <button class="btn"><?php echo get_field('offerte_aanvragen_knop_tekst', 'option'); ?></button>
+        </a>
+        <p>of bel ons geheel vrijblijvend op <a href="tel:+31655143381">06-55143381</a></p>
         </div>
 
       <!-- Side bar info box -->	

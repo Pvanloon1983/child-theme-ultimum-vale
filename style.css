@@ -210,6 +210,14 @@ body.logged-in > header {
   box-shadow: rgb(163 163 163 / 20%) 0px 8px 8px 0px;
 }
 
+.navbar-main .menu-main-menu-container > ul > li > ul > li > a {
+  text-align: left !important;
+}
+
+.navbar-main .menu-main-menu-container > ul > li > ul > li > ul > li > a {
+  text-align: left !important;
+}
+
 /*
 * #.# Navbar search bar styling
 *
@@ -771,6 +779,10 @@ h3 {
   align-items: center;
 }
 
+.copyright-box {
+  text-align: left;
+}
+
 .footer .fa-brands + a::before {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
@@ -823,6 +835,7 @@ i.fa-solid.fa-arrow-right {
 
 .footer-widgets {
   align-items: start;
+  text-align: left;
 }
 
 
@@ -838,6 +851,13 @@ i.fa-solid.fa-arrow-right {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
+  text-align: left !important;
+  text-decoration: none !important;
+}
+
+.copyright a {
+  text-decoration: none !important;
 }
 
 .footer .widget {
