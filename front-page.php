@@ -14,10 +14,12 @@
         <div class="header-hero-inside-container">
           <div class="header-hero-block block-1">
             <h1><?php echo get_field('h1_home_page', 'option'); ?></h1>
-            <p><?php echo get_field('tekst_onder_h1_home_page', 'option'); ?></p>
+            <p><?php // echo get_field('tekst_onder_h1_home_page', 'option'); ?></p>
             <a style="text-decoration: none;" href="<?php echo get_field('cta_button_link_h1', 'option'); ?>">
               <div class="btn"><?php echo get_field('cta_button_tekst_h1', 'option'); ?></div>
             </a>
+          </div>
+          <div class="header-hero-block block-2">
           </div>
         </div>
       </div>
@@ -102,11 +104,15 @@
 
           <a href="<?php echo $watBiedenWij['aanbod_kisten_link']; ?>" style="text-decoration: none;"> 
             <div class="box">
-              <?php $image = $watBiedenWij['aanbod_kisten_afbeelding']; ?>
-              <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>">
-              <h3><?php echo $watBiedenWij['aanbod_kisten_titel']; ?></h3>
-              <p><?php echo $watBiedenWij['aanbod_kisten_uitleg']; ?></p>
-              <a class="btn-link" href="<?php echo $watBiedenWij['aanbod_kisten_link']; ?>"><button class="btn"><?php echo $watBiedenWij['aanbod_kisten_knop']; ?></button></a>
+                <div>
+                  <?php $image = $watBiedenWij['aanbod_kisten_afbeelding']; ?>
+                  <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>">
+                </div>
+                <div>
+                  <h3><?php echo $watBiedenWij['aanbod_kisten_titel']; ?></h3>
+                  <p><?php echo $watBiedenWij['aanbod_kisten_uitleg']; ?></p>
+                  <a class="btn-link" href="<?php echo $watBiedenWij['aanbod_kisten_link']; ?>"><button class="btn"><?php echo $watBiedenWij['aanbod_kisten_knop']; ?></button></a> 
+                </div>
             </div>
           </a> 
           

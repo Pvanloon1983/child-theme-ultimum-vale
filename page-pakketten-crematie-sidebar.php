@@ -13,6 +13,7 @@
         <div class="header-hero-inside-container">
           <div class="header-hero-block block-1">
           <?php echo get_template_part('template-parts/alternative_title'); ?>
+          <p><?php echo get_field('tekst_onder_de_titel'); ?></p>
           </div>
         </div>
       </div>

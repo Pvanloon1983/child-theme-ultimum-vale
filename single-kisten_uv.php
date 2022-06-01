@@ -7,7 +7,7 @@
       <div class="container">
         <div class="header-hero-inside-container">
           <div class="header-hero-block block-1">
-            <h1><?php the_title(); ?></h1>
+            <h1>Model uitvaartkist: <?php the_title(); ?></h1>
           </div>
         </div>
       </div>
@@ -57,7 +57,46 @@
 
     </div>
   </div>
+  <?php $begeleid = get_field('begeleid_door', 'option'); ?>
+  <section class="section begeleid-door" style="background-image: url('<?php echo $begeleid['begeleid_door_afbeelding']; ?>'); background-position: center center; background-repeat: no-repeat; background-size: cover;">
+    <div class="overlay">
+      <div class="container">
+      <h3><?php echo get_field('wij_verzorgen_door_heel_nederland_kop', 'option'); ?></h3>
+        <div class="flex-box">
+          
+            <div class="box">
+              <a style="text-decoration: none;" href="mailto:<?php echo $begeleid['begeleid_door_email']; ?>">
+              <i class="fa-solid fa-envelope"></i> 
+              <p><?php echo $begeleid['begeleid_door_email']; ?></p>
+              <button class="btn">
+                Stuur een E-mail
+              </button>
+              </a>
+            </div>
 
+          <div class="box">
+          <a style="text-decoration: none;" href="tel:<?php echo $begeleid['begeleid_door_telefoonnummer_link']; ?>">
+          <i class="fa-solid fa-phone"></i> 
+            <p><?php echo $begeleid['begeleid_door_telefoonnummer']; ?></p>
+            <button class="btn">
+              Bel ons direct
+            </button>
+          </a>
+          </div>
+
+          <div class="box">
+            <a style="text-decoration: none;" href="<?php echo $begeleid['begeleid_door_contact_link']; ?>">
+              <i class="fa-solid fa-comment-dots"></i>
+              <p><?php echo $begeleid['begeleid_door_bericht']; ?></p>
+              <button class="btn">
+                Naar het contactformulier
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
 </div>
 

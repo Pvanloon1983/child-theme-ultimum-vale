@@ -13,7 +13,7 @@
         <div class="header-hero-inside-container">
           <div class="header-hero-block block-1">
           <?php echo get_template_part('template-parts/alternative_title'); ?>
-            <p class="page-p-different-header"><?php echo get_field('uitvaartpakketten_pagina_header_tekst', 'option'); ?></p>
+            <p><?php echo get_field('tekst_onder_de_titel'); ?></p>
           </div>
         </div>
       </div>
@@ -67,6 +67,7 @@
     <div class="overlay">
       <div class="container">
         <h2><?php echo get_field('wat_bieden_wij_kop_2', 'option'); ?></h2>
+        <hr class="hr">
         <div class="flex-box">  
 
           <div class="box">
@@ -104,6 +105,90 @@
     </div>
   </section>
 
-</div>
+  <!-- <section class="extra-diensten">
+    <div class="overlay">
+      <div class="container">
+        <h3 class="extra-diensten-titel">Wat wij nog meer bieden</h3>
+          <div class="grid-box">
+            <div class="extra-diensten-box extra-diensten-box-1">
+                <div class="image-box-extra-diensten">
+                  <img src="http://nieuwvale.test/wp-content/uploads/2022/03/kisten-widget-1024x390-1.png" alt="">
+                </div>
+                <div class="extra-diensten-text">
+                  <h3>Ruime keuze kisten</h3>
+                  <p>Wij beschikken over een ruime keuze aan kisten van hoge kwaliteit.</p>
+                  <a class="btn-link" href="/kisten/"><button class="btn">Bekijk de kisten</button></a>
+                </div>
+            </div>
+
+            <div class="extra-diensten-box extra-diensten-box-2">
+                <div class="extra-diensten-text">
+                  <h3>Rouwkaarten</h3>
+                  <p>Wij hebben een ruime keuze op maat ontworpen kaarten.</p>
+                  <a class="btn-link" href="/rouwkaarten/"><button class="btn">Bekijk de kaarten</button></a>
+                </div>
+                <div class="image-box-extra-diensten">
+                  <img src="http://nieuwvale.test/wp-content/uploads/2022/03/rouwkaarten-widget-1024x389-1.png" alt="">
+                </div>
+            </div>
+
+
+            <div class="extra-diensten-box extra-diensten-box-3">
+                <div class="image-box-extra-diensten">
+                  <img src="http://nieuwvale.test/wp-content/uploads/2022/03/kaarsen-widget-1024x389-1.png" alt="">
+                </div>
+                <div class="extra-diensten-text">
+                  <h3>Online Condoleance</h3>
+                  <p>Laat een persoonlijk bericht achter in ons register.</p>
+                  <a class="btn-link" href="/online-condoleance/"><button class="btn">Bekijk het condoleace register</button></a>
+                </div>
+            </div>
+        </div>
+      </div>
+    <div>
+  </section> -->
+
+  <?php $begeleid = get_field('begeleid_door', 'option'); ?>
+  <section class="section begeleid-door" style="background-image: url('<?php echo $begeleid['begeleid_door_afbeelding']; ?>'); background-position: center center; background-repeat: no-repeat; background-size: cover;">
+    <div class="overlay">
+      <div class="container">
+      <h3><?php echo get_field('wij_verzorgen_door_heel_nederland_kop', 'option'); ?></h3>
+        <div class="flex-box">
+          
+            <div class="box">
+              <a style="text-decoration: none;" href="mailto:<?php echo $begeleid['begeleid_door_email']; ?>">
+              <i class="fa-solid fa-envelope"></i> 
+              <p><?php echo $begeleid['begeleid_door_email']; ?></p>
+              <button class="btn">
+                Stuur een E-mail
+              </button>
+              </a>
+            </div>
+
+          <div class="box">
+          <a style="text-decoration: none;" href="tel:<?php echo $begeleid['begeleid_door_telefoonnummer_link']; ?>">
+          <i class="fa-solid fa-phone"></i> 
+            <p><?php echo $begeleid['begeleid_door_telefoonnummer']; ?></p>
+            <button class="btn">
+              Bel ons direct
+            </button>
+          </a>
+          </div>
+
+          <div class="box">
+            <a style="text-decoration: none;" href="<?php echo $begeleid['begeleid_door_contact_link']; ?>">
+              <i class="fa-solid fa-comment-dots"></i>
+              <p><?php echo $begeleid['begeleid_door_bericht']; ?></p>
+              <button class="btn">
+                Naar het contactformulier
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+</main>
 
 <?php get_footer(); ?>
