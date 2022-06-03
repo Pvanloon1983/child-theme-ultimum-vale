@@ -74,6 +74,14 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
 }
 
+#menu-main-menu .current-menu-ancestor > a{
+  font-weight: bold;
+}
+
+#menu-main-menu-1 .current-menu-ancestor > a{
+  font-weight: bold;
+}
+
 .main-content
 .two-column-section ul {
   padding-left: 20px;
@@ -641,6 +649,26 @@ h3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 15px;
+}
+
+.page-template-page-kisten
+.section.wat-bieden-wij
+.flex-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.page-template-page-rouwkaarten
+.section.wat-bieden-wij
+.flex-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .section.wat-bieden-wij
@@ -3394,6 +3422,8 @@ textarea {
   */
   .section.pakketten .pakket {
     padding: 15px 15px 30px 15px;
+    width: 250px;
+    justify-self: center;
   }
 
   .section.pakketten
