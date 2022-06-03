@@ -102,8 +102,9 @@
         <h3><?php echo get_field('wat_bieden_wij_kop', 'option'); ?></h3>
         <div class="flex-box">
 
-          <a href="<?php echo $watBiedenWij['aanbod_kisten_link']; ?>" style="text-decoration: none;"> 
+          
             <div class="box">
+            <a href="<?php echo $watBiedenWij['aanbod_kisten_link']; ?>" style="text-decoration: none;"> 
                 <div>
                   <?php $image = $watBiedenWij['aanbod_kisten_afbeelding']; ?>
                   <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>">
@@ -113,28 +114,33 @@
                   <p><?php echo $watBiedenWij['aanbod_kisten_uitleg']; ?></p>
                   <a class="btn-link" href="<?php echo $watBiedenWij['aanbod_kisten_link']; ?>"><button class="btn"><?php echo $watBiedenWij['aanbod_kisten_knop']; ?></button></a> 
                 </div>
+              </a> 
             </div>
-          </a> 
           
-          <a href="<?php echo $watBiedenWij['aanbod_rouwkaarten_link']; ?>" style="text-decoration: none;">
+          
+          
             <div class="box">
+            <a href="<?php echo $watBiedenWij['aanbod_rouwkaarten_link']; ?>" style="text-decoration: none;">
               <?php $image = $watBiedenWij['aanbod_rouwkaarten_afbeelding']; ?>
               <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>">
               <h3><?php echo $watBiedenWij['aanbod_rouwkaarten_titel']; ?></h3>
               <p><?php echo $watBiedenWij['aanbod_rouwkaarten_uitleg']; ?></p>
               <a class="btn-link" href="<?php echo $watBiedenWij['aanbod_rouwkaarten_link']; ?>"><button class="btn"><?php echo $watBiedenWij['aanbod_rouwkaarten_knop']; ?></button></a>
+              </a>
             </div>
-          </a>
+          
 
-          <a href="<?php echo $watBiedenWij['online_condoleance_link']; ?>" style="text-decoration: none;">
+          
             <div class="box">
+            <a href="<?php echo $watBiedenWij['online_condoleance_link']; ?>" style="text-decoration: none;">
               <?php $image = $watBiedenWij['online_condoleance_afbeelding']; ?>
               <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>">
               <h3><?php echo $watBiedenWij['online_condoleance_titel']; ?></h3>
               <p><?php echo $watBiedenWij['online_condoleance_uitleg']; ?></p>
               <a class="btn-link" href="<?php echo $watBiedenWij['online_condoleance_link']; ?>"><button class="btn"><?php echo $watBiedenWij['online_condoleance_knop']; ?></button></a>
+              </a>
             </div>
-          </a>
+          
           
         </div> 
       </div>
