@@ -2303,6 +2303,14 @@ textarea {
   margin: 0;
 }
 
+/*
+* Home page hero
+*
+*/
+.break-span-homepage {
+  color: white;
+}
+
 
 @media only screen and (max-width: 1024px) {
 
@@ -3265,6 +3273,14 @@ textarea {
   
   .heading-prijs-vanaf div {
     color: #fff !important;
+  }
+
+  /*
+  * Home page header
+  */
+  .break-span-homepage {
+    display: block;
+    margin-bottom: -33px;
   }
 
 }

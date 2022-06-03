@@ -13,7 +13,8 @@
       <div class="container">
         <div class="header-hero-inside-container">
           <div class="header-hero-block block-1">
-            <h1><?php echo get_field('h1_home_page', 'option'); ?></h1>
+            <!-- <h1><?php  // echo get_field('h1_home_page', 'option'); ?></h1> -->
+            <h1>Uitvaartverzorging <span class="break-span-homepage">Ultimum Vale</span> <br> Een laatste waardige groet!</h1>
             <p><?php // echo get_field('tekst_onder_h1_home_page', 'option'); ?></p>
             <a style="text-decoration: none;" href="<?php echo get_field('cta_button_link_h1', 'option'); ?>">
               <div class="btn"><?php echo get_field('cta_button_tekst_h1', 'option'); ?></div>
