@@ -54,7 +54,11 @@ html {
   box-shadow: none;
   color: #787878;
   transition: all .5s;
-  max-width: 500px;
+}
+
+.nf-form-content textarea.ninja-forms-field {
+  width: 100% !important;
+  max-width: none !important;
 }
 
 .main-content {
@@ -435,6 +439,64 @@ body.logged-in > header {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   gap: 15px;
 }
+
+.section.pakketten
+.pakket {
+  box-shadow: rgba(163, 163, 163, 0.2) 0px 2px 8px 0px;
+  text-align: center;  
+  flex: 1;
+  padding: 15px 15px 30px 15px;
+  transition: all 0.3s;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 6px;
+}
+
+.home
+.section.pakketten
+.pakket {
+  box-shadow: rgba(163, 163, 163, 0.2) 0px 2px 8px 0px;
+  text-align: center;  
+  flex: 1;
+  padding: 15px 15px 15px 15px;
+  transition: all 0.3s;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 6px;
+}
+
+
+.home
+.section.pakketten
+.pakket > div {
+  border: 1px solid #d7d7d7;
+  padding-top: 6px;
+  padding-bottom: 21px;
+}
+
+
+.page-template-page-pakketten
+.section.pakketten
+.pakket {
+  box-shadow: rgba(163, 163, 163, 0.2) 0px 2px 8px 0px;
+  text-align: center;  
+  flex: 1;
+  padding: 15px 15px 15px 15px;
+  transition: all 0.3s;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 6px;
+}
+
+
+.page-template-page-pakketten
+.section.pakketten
+.pakket > div {
+  border: 1px solid #d7d7d7;
+  padding-top: 6px;
+  padding-bottom: 21px;
+}
+
 
 .section.pakketten
 .pakket {
@@ -1104,6 +1166,7 @@ ul li {
   border-radius: 6px;
   margin-top: -20px;
 }
+
 
 .single-kisten_uv
 .two-column-section
@@ -2610,7 +2673,7 @@ textarea {
   .rouwkaarten
   .flex-box {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
 
@@ -2669,6 +2732,13 @@ textarea {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
+  }
+
+  .page-template-page-condoleance-register 
+  .two-column-section 
+  .text-content {
+    width: 100%;
+    padding: 0px 0px 0px 0px !important;
   }
 
 }
@@ -2762,6 +2832,14 @@ textarea {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
+  }
+
+  .page-template-page-kisten .section.wat-bieden-wij .flex-box {
+    grid-template-columns: 1fr;
+  }
+
+  .page-template-page-rouwkaarten .section.wat-bieden-wij .flex-box {
+    grid-template-columns: 1fr;
   }
 
 }
@@ -3019,7 +3097,8 @@ textarea {
   .flex-box {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    // flex-direction: column;
+    column-gap: 20px;
   }
 
   .box-content-pakketten {
@@ -3091,7 +3170,7 @@ textarea {
   .rouwkaarten
   .flex-box {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 1fr 1fr;
   }
 
   .page-template-page-rouwkaarten
@@ -3311,6 +3390,20 @@ textarea {
     margin-bottom: -33px;
   }
 
+  .box-content-pakketten
+  .pakket {
+    width: 100%;
+    max-width: 330px;
+  } 
+
+  .box-content-pakketten .flex-box {
+    justify-content: center;
+  }
+
+  .single-condoleances .text-content {
+    padding: 8px 0px 7px 0px !important;
+  }
+
 }
 
 
@@ -3420,9 +3513,23 @@ textarea {
   * #.# Section pakketten
   *
   */
+  .page-template-page-pakketten
+  .section.pakketten .pakket {
+    padding: 15px 15px 15px 15px;
+    width: 330px;
+    justify-self: center;
+  }
+
+  .home
+  .section.pakketten .pakket {
+    padding: 15px 15px 15px 15px;
+    width: 330px;
+    justify-self: center;
+  }
+
+
   .section.pakketten .pakket {
     padding: 15px 15px 30px 15px;
-    width: 300px;
     justify-self: center;
   }
 
